@@ -11,9 +11,9 @@
     2.1527
   ],
   "text": {
-    "en": "A hillside park designed by Gaudí, with mosaic terraces, whimsical pavilions, colonnades and broad views over Barcelona.",
-    "de": "Ein Hangpark von Gaudí mit Mosaikterrassen, verspielten Pavillons, Säulengängen und weiten Ausblicken über Barcelona.",
-    "es": "Un parque en la ladera diseñado por Gaudí, con terrazas de mosaico, pabellones fantasiosos, columnatas y amplias vistas de Barcelona."
+    "en": "A hillside park designed by Gaudí, with mosaic terraces, whimsical pavilions, colonnades and broad views over Barcelona. It was planned around 1900 as a garden-city housing development, which never succeeded, and it opened as a public park in 1926.",
+    "de": "Ein Hangpark von Gaudí mit Mosaikterrassen, verspielten Pavillons, Säulengängen und weiten Ausblicken über Barcelona. Er wurde um 1900 als Gartenstadt-Siedlung geplant, die nie erfolgreich wurde, und 1926 als öffentlicher Park eröffnet.",
+    "es": "Un parque en la ladera diseñado por Gaudí, con terrazas de mosaico, pabellones fantasiosos, columnatas y amplias vistas de Barcelona. Se planificó hacia 1900 como una urbanización de ciudad jardín que nunca tuvo éxito, y se abrió como parque público en 1926."
   },
   "links": [
     {
@@ -26,5 +26,22 @@
     "author": "Bernard Gagnon",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg"
+  },
+  "good": {
+    "en": [
+      "The famous central area (the \"monumental zone\") needs a timed ticket, so book ahead.",
+      "The park is on a hillside with slopes and steps; wear comfortable shoes.",
+      "Early morning is calmer and cooler; the terrace views are best in clear weather."
+    ],
+    "de": [
+      "Der berühmte zentrale Bereich (die „Monumentalzone“) erfordert ein Zeitfenster-Ticket, also im Voraus buchen.",
+      "Der Park liegt am Hang, mit Steigungen und Treppen; trage bequeme Schuhe.",
+      "Früh am Morgen ist es ruhiger und kühler; die Aussicht von der Terrasse ist bei klarem Wetter am schönsten."
+    ],
+    "es": [
+      "La famosa zona central (la «zona monumental») requiere entrada con hora, así que reserva con antelación.",
+      "El parque está en una ladera, con cuestas y escaleras; lleva calzado cómodo.",
+      "A primera hora hay más calma y menos calor; las vistas desde la terraza son mejores con cielo despejado."
+    ]
   }
 }

@@ -31,6 +31,7 @@ const places: PlaceData[] = (await Promise.all(entries
     text: e.data.text[lang],
     tip: e.data.tip?.[lang],
     how: e.data.how?.[lang],
+    good: e.data.good?.[lang],
     links: e.data.links.map((l) => ({ type: l.type, url: l.url, label: l.label?.[lang] })),
     cost: COSTS[e.data.cost][lang],
     time: e.data.time,
@@ -43,7 +44,7 @@ const places: PlaceData[] = (await Promise.all(entries
 
 const listStrings = {
   area: t.area, theme: t.theme, clear: t.clear, one: t.one, many: t.many, none: t.none,
-  map: t.map, tix: t.tix, web: t.web, how: t.how, time: t.time, photoBy: t.photoBy,
+  map: t.map, tix: t.tix, web: t.web, how: t.how, time: t.time, more: t.more, less: t.less, photoBy: t.photoBy,
 };
 ---
 

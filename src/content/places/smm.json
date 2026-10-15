@@ -11,9 +11,9 @@
     2.1823
   ],
   "text": {
-    "en": "An elegant 14th-century Catalan Gothic church in El Born, built with support from sailors, merchants and dockworkers. Its bright interior feels more intimate than the cathedral.",
-    "de": "Eine elegante katalanisch-gotische Kirche aus dem 14. Jahrhundert im Viertel El Born, von Seeleuten, Händlern und Hafenarbeitern erbaut. Das helle Innere wirkt vertrauter als die Kathedrale.",
-    "es": "Una elegante iglesia gótica catalana del siglo XIV en El Born, construida con el apoyo de marineros, comerciantes y estibadores. Su interior luminoso resulta más íntimo que el de la catedral."
+    "en": "An elegant 14th-century Catalan Gothic church in El Born, built with support from sailors, merchants and dockworkers. Its bright interior feels more intimate than the cathedral. It was built remarkably quickly for a Gothic church, between 1329 and 1383, and is the setting of the novel \"Cathedral of the Sea\".",
+    "de": "Eine elegante katalanisch-gotische Kirche aus dem 14. Jahrhundert im Viertel El Born, von Seeleuten, Händlern und Hafenarbeitern erbaut. Das helle Innere wirkt vertrauter als die Kathedrale. Sie wurde für eine gotische Kirche bemerkenswert schnell zwischen 1329 und 1383 gebaut und ist der Schauplatz des Romans „Die Kathedrale des Meeres“.",
+    "es": "Una elegante iglesia gótica catalana del siglo XIV en El Born, construida con el apoyo de marineros, comerciantes y estibadores. Su interior luminoso resulta más íntimo que el de la catedral. Se construyó con una rapidez notable para una iglesia gótica, entre 1329 y 1383, y es el escenario de la novela «La catedral del mar»."
   },
   "links": [
     {
@@ -26,5 +26,22 @@
     "author": "Alvesgaspar",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Mar_Barcelona_September_2026-1.jpg"
+  },
+  "good": {
+    "en": [
+      "Notice the tall, slender columns and plain walls, which make the interior feel light and open.",
+      "Look for the large rose window above the main entrance.",
+      "Cover shoulders and knees when visiting, as in most churches."
+    ],
+    "de": [
+      "Achte auf die hohen, schlanken Säulen und schlichten Wände, die das Innere hell und weit wirken lassen.",
+      "Suche das große Rosenfenster über dem Haupteingang.",
+      "Bedecke Schultern und Knie beim Besuch, wie in den meisten Kirchen."
+    ],
+    "es": [
+      "Fíjate en las columnas altas y esbeltas y en los muros lisos, que hacen que el interior parezca luminoso y amplio.",
+      "Busca el gran rosetón sobre la entrada principal.",
+      "Cubre hombros y rodillas al visitarla, como en la mayoría de iglesias."
+    ]
   }
 }

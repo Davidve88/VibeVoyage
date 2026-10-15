@@ -11,9 +11,9 @@
     2.1534
   ],
   "text": {
-    "en": "Catalonia's national art museum in the Palau Nacional, especially strong in Romanesque frescoes, Gothic art and Modernisme. Its terrace has one of the city's best views.",
-    "de": "Das Nationalmuseum Kataloniens im Palau Nacional, besonders stark bei romanischen Fresken, gotischer Kunst und Modernisme. Die Terrasse bietet einen der schönsten Ausblicke der Stadt.",
-    "es": "El museo nacional de Cataluña en el Palau Nacional, especialmente rico en frescos románicos, arte gótico y modernismo. Su terraza ofrece una de las mejores vistas de la ciudad."
+    "en": "Catalonia's national art museum in the Palau Nacional, especially strong in Romanesque frescoes, Gothic art and Modernisme. Its terrace has one of the city's best views. The Palau Nacional was built for the 1929 International Exhibition and is home to one of the finest collections of Romanesque church murals in the world.",
+    "de": "Das Nationalmuseum Kataloniens im Palau Nacional, besonders stark bei romanischen Fresken, gotischer Kunst und Modernisme. Die Terrasse bietet einen der schönsten Ausblicke der Stadt. Der Palau Nacional wurde für die Weltausstellung 1929 gebaut und beherbergt eine der schönsten Sammlungen romanischer Kirchenfresken der Welt.",
+    "es": "El museo nacional de Cataluña en el Palau Nacional, especialmente rico en frescos románicos, arte gótico y modernismo. Su terraza ofrece una de las mejores vistas de la ciudad. El Palau Nacional se construyó para la Exposición Internacional de 1929 y alberga una de las mejores colecciones de pinturas murales románicas del mundo."
   },
   "tip": {
     "en": "Montjuïc works best as its own half or full day: the museum, the castle and Poble Espanyol are all on the hill.",
@@ -31,5 +31,22 @@
     "author": "Didier Descouens",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Palau_Nacional_-_National_Museum_of_Art_of_Catalunya.jpg"
+  },
+  "good": {
+    "en": [
+      "The Romanesque rooms are the museum's signature; start there if time is short.",
+      "The rooftop terrace has wide views over the city, and the museum can be seen from the Magic Fountain below.",
+      "The approach is uphill, with escalators from the avenue below."
+    ],
+    "de": [
+      "Die romanischen Säle sind das Markenzeichen des Museums; beginne dort, wenn die Zeit knapp ist.",
+      "Die Dachterrasse bietet weite Ausblicke über die Stadt, und das Museum ist vom Magischen Brunnen darunter zu sehen.",
+      "Der Zugang führt bergauf, mit Rolltreppen von der Allee unten."
+    ],
+    "es": [
+      "Las salas románicas son la seña de identidad del museo; empieza por ellas si tienes poco tiempo.",
+      "La terraza de la azotea ofrece amplias vistas de la ciudad, y el museo se ve desde la Fuente Mágica, más abajo.",
+      "El acceso es cuesta arriba, con escaleras mecánicas desde la avenida de abajo."
+    ]
   }
 }

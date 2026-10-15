@@ -11,9 +11,9 @@
     2.1617
   ],
   "text": {
-    "en": "Former Civil War anti-aircraft batteries, now a free 360° viewpoint over the city, the sea, Montjuïc and Collserola. Go earlier in the day for comfort and clearer views.",
-    "de": "Ehemalige Flugabwehrstellungen aus dem Bürgerkrieg, heute ein kostenloser 360°-Aussichtspunkt über Stadt, Meer, Montjuïc und Collserola. Besser früher am Tag: angenehmer und klarere Sicht.",
-    "es": "Antiguas baterías antiaéreas de la Guerra Civil, hoy un mirador gratuito de 360° sobre la ciudad, el mar, Montjuïc y Collserola. Ve temprano por comodidad y para tener mejor visibilidad."
+    "en": "Former Civil War anti-aircraft batteries, now a free 360° viewpoint over the city, the sea, Montjuïc and Collserola. Go earlier in the day for comfort and clearer views. The site sits on the Turó de la Rovira hill and was used for anti-aircraft defence during the Spanish Civil War; the views stretch from the sea to the mountains.",
+    "de": "Ehemalige Flugabwehrstellungen aus dem Bürgerkrieg, heute ein kostenloser 360°-Aussichtspunkt über Stadt, Meer, Montjuïc und Collserola. Besser früher am Tag: angenehmer und klarere Sicht. Der Ort liegt auf dem Hügel Turó de la Rovira und diente im Spanischen Bürgerkrieg der Flugabwehr; die Aussicht reicht vom Meer bis zu den Bergen.",
+    "es": "Antiguas baterías antiaéreas de la Guerra Civil, hoy un mirador gratuito de 360° sobre la ciudad, el mar, Montjuïc y Collserola. Ve temprano por comodidad y para tener mejor visibilidad. El lugar se encuentra en la colina del Turó de la Rovira y se usó para la defensa antiaérea durante la Guerra Civil española; las vistas llegan del mar a las montañas."
   },
   "tip": {
     "en": "The way up is uphill. Leave enough time and wear comfortable shoes.",
@@ -25,5 +25,22 @@
     "author": "Barcelonatips",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bunkers_del_Carmel_Barcelona.jpg"
+  },
+  "good": {
+    "en": [
+      "It is a popular sunset spot and can get crowded; come earlier for space and clear light.",
+      "Bring water and a layer, as there is little shade or shelter on the hilltop.",
+      "The remains of the old barracks and gun positions are scattered around the summit."
+    ],
+    "de": [
+      "Es ist ein beliebter Ort für den Sonnenuntergang und kann voll werden; komm früher für Platz und klares Licht.",
+      "Nimm Wasser und eine zusätzliche Schicht mit, denn auf dem Hügel gibt es kaum Schatten oder Schutz.",
+      "Die Überreste der alten Baracken und Geschützstellungen liegen rund um den Gipfel verstreut."
+    ],
+    "es": [
+      "Es un lugar muy popular para ver la puesta de sol y puede llenarse; ve antes para tener sitio y luz clara.",
+      "Lleva agua y una prenda de abrigo, porque en la cima hay poca sombra y poco refugio.",
+      "Los restos de los antiguos barracones y emplazamientos de cañones están repartidos por la cima."
+    ]
   }
 }

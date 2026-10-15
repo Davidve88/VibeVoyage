@@ -11,14 +11,31 @@
     2.1735
   ],
   "text": {
-    "en": "Barcelona's famous pedestrian boulevard and its lively central market. Best early in the day; La Boqueria is ideal for a casual vegetarian snack or fruit juice.",
-    "de": "Barcelonas berühmte Flaniermeile und ihr lebhafter Zentralmarkt. Am besten früh am Tag; La Boqueria eignet sich ideal für einen vegetarischen Snack oder frischen Fruchtsaft.",
-    "es": "El famoso bulevar peatonal de Barcelona y su animado mercado central. Mejor a primera hora; La Boqueria es ideal para un tentempié vegetariano o un zumo de fruta."
+    "en": "Barcelona's famous pedestrian boulevard and its lively central market. Best early in the day; La Boqueria is ideal for a casual vegetarian snack or fruit juice. The boulevard runs for about a kilometre from Plaça de Catalunya down to the harbour and the Columbus monument.",
+    "de": "Barcelonas berühmte Flaniermeile und ihr lebhafter Zentralmarkt. Am besten früh am Tag; La Boqueria eignet sich ideal für einen vegetarischen Snack oder frischen Fruchtsaft. Der Boulevard führt etwa einen Kilometer von der Plaça de Catalunya hinunter zum Hafen und zum Kolumbus-Denkmal.",
+    "es": "El famoso bulevar peatonal de Barcelona y su animado mercado central. Mejor a primera hora; La Boqueria es ideal para un tentempié vegetariano o un zumo de fruta. El bulevar recorre cerca de un kilómetro desde la plaza de Cataluña hasta el puerto y el monumento a Colón."
   },
   "photo": {
     "file": "rambla.jpg",
     "author": "Stefano Vigorelli",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:En_la_Rambla,_Barcelona_SP.jpg"
+  },
+  "good": {
+    "en": [
+      "It is busiest in the middle of the day; early morning is calmer.",
+      "Keep an eye on bags and pockets in the crowds, as in any busy tourist area.",
+      "Side streets just off the Rambla are often quieter and better for a coffee."
+    ],
+    "de": [
+      "Mittags ist es am vollsten; früh am Morgen ist es ruhiger.",
+      "Achte in der Menge auf Taschen und Jackentaschen, wie in jedem belebten Touristengebiet.",
+      "Die Seitenstraßen direkt neben der Rambla sind oft ruhiger und besser für einen Kaffee."
+    ],
+    "es": [
+      "Está más concurrida a mediodía; a primera hora hay más calma.",
+      "Vigila bolsos y bolsillos entre la multitud, como en cualquier zona turística concurrida.",
+      "Las calles laterales junto a La Rambla suelen ser más tranquilas y mejores para un café."
+    ]
   }
 }

@@ -11,14 +11,31 @@
     2.1837
   ],
   "text": {
-    "en": "The old port, a pleasant waterfront stroll on the way to Barceloneta.",
-    "de": "Der alte Hafen, ein angenehmer Spaziergang am Wasser auf dem Weg nach Barceloneta.",
-    "es": "El puerto viejo, un agradable paseo junto al agua camino de la Barceloneta."
+    "en": "The old port, a pleasant waterfront stroll on the way to Barceloneta. The old port was reshaped as a leisure area in the 1990s and now holds a marina, an aquarium and a shopping and dining complex.",
+    "de": "Der alte Hafen, ein angenehmer Spaziergang am Wasser auf dem Weg nach Barceloneta. Der alte Hafen wurde in den 1990er-Jahren zum Freizeitgebiet umgestaltet und beherbergt heute einen Yachthafen, ein Aquarium sowie ein Einkaufs- und Restaurantzentrum.",
+    "es": "El puerto viejo, un agradable paseo junto al agua camino de la Barceloneta. El puerto viejo se transformó en una zona de ocio en los años noventa y hoy alberga un puerto deportivo, un acuario y un complejo de tiendas y restaurantes."
   },
   "photo": {
     "file": "portvell.jpg",
     "author": "Felix König",
     "license": "CC BY 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geb%C3%A4ude_Port_Vell_Barcelona_2013.JPG"
+  },
+  "good": {
+    "en": [
+      "The wooden Rambla de Mar footbridge crosses the water and is a pleasant way to walk out into the harbour.",
+      "It starts at the Columbus monument at the foot of La Rambla.",
+      "It is easy to link with a stroll to Barceloneta along the waterfront."
+    ],
+    "de": [
+      "Die hölzerne Fußgängerbrücke Rambla de Mar überquert das Wasser und ist ein schöner Weg hinaus in den Hafen.",
+      "Sie beginnt am Kolumbus-Denkmal am Fuß der Rambla.",
+      "Sie lässt sich leicht mit einem Spaziergang am Wasser nach Barceloneta verbinden."
+    ],
+    "es": [
+      "La pasarela de madera de la Rambla de Mar cruza el agua y es una agradable manera de adentrarse en el puerto.",
+      "Empieza en el monumento a Colón, al pie de La Rambla.",
+      "Se combina fácilmente con un paseo hasta la Barceloneta junto al mar."
+    ]
   }
 }

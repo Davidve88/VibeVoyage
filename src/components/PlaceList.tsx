@@ -11,6 +11,7 @@ export interface PlaceData {
   text: string;
   tip?: string;
   how?: string;
+  good?: string[];
   links: { type: 'map' | 'tix' | 'web'; url: string; label?: string }[];
   query: string;
   photo?: { src: string; author: string; license: string; sourceUrl: string };
@@ -19,10 +20,47 @@ export interface PlaceData {
 // Plain strings only (islands receive serialisable props).
 export interface ListStrings {
   area: string; theme: string; clear: string; one: string; many: string; none: string;
-  map: string; tix: string; web: string; how: string; time: string; photoBy: string;
+  map: string; tix: string; web: string; how: string; time: string; more: string; less: string; photoBy: string;
 }
 
 interface Props { lang: Lang; places: PlaceData[]; t: ListStrings }
+
+function Card({ p, lang, t }: { p: PlaceData; lang: Lang; t: ListStrings }) {
+  const [open, setOpen] = useState(false);
+  const gid = `good-${p.id}`;
+  return (
+    <article class="card">
+      {p.photo && <img src={p.photo.src} alt="" loading="lazy" />}
+      <h3>{p.name}</h3>
+      <p class="meta">{AREAS[p.area][lang]} · {p.themes.map((x) => THEMES[x][lang]).join(", ")}</p>
+      <p class="badges"><span class="badge">{p.cost}</span> <span class="time">{t.time}: {p.time}</span></p>
+      <p>{p.text}</p>
+      {p.tip && <div class="tip">{p.tip}</div>}
+      {p.how && <div class="tip"><strong>{t.how}:</strong> {p.how}</div>}
+      {p.good && p.good.length > 0 && (
+        <>
+          <button type="button" class="linkbtn more" aria-expanded={open} aria-controls={gid} onClick={() => setOpen(!open)}>
+            {open ? t.less : t.more}
+          </button>
+          <ul id={gid} class="good" hidden={!open}>
+            {p.good.map((g) => <li>{g}</li>)}
+          </ul>
+        </>
+      )}
+      {p.photo && (
+        <p class="credit">{t.photoBy}: <a href={p.photo.sourceUrl}>{p.photo.author}</a>, {p.photo.license}</p>
+      )}
+      <div class="links">
+        {p.links.some((x) => x.type === "map") ? null : (
+          <a class="btn" target="_blank" rel="noopener" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.query)}`}>{t.map}</a>
+        )}
+        {p.links.map((x) => (
+          <a class="btn" target="_blank" rel="noopener" href={x.url}>{x.label ?? t[x.type]}</a>
+        ))}
+      </div>
+    </article>
+  );
+}
 
 export default function PlaceList({ lang, places, t }: Props) {
   const [area, setArea] = useState<string | null>(null);
@@ -56,28 +94,7 @@ export default function PlaceList({ lang, places, t }: Props) {
       <p class="count" aria-live="polite">{shown.length} {shown.length === 1 ? t.one : t.many}</p>
       {shown.length === 0 && <p>{t.none}</p>}
       <div class="grid">
-        {shown.map((p) => (
-          <article class="card" key={p.id}>
-            {p.photo && <img src={p.photo.src} alt="" loading="lazy" />}
-            <h3>{p.name}</h3>
-            <p class="meta">{AREAS[p.area][lang]} · {p.themes.map((x) => THEMES[x][lang]).join(', ')}</p>
-            <p class="badges"><span class="badge">{p.cost}</span> <span class="time">{t.time}: {p.time}</span></p>
-            <p>{p.text}</p>
-            {p.tip && <div class="tip">{p.tip}</div>}
-            {p.how && <div class="tip"><strong>{t.how}:</strong> {p.how}</div>}
-            {p.photo && (
-              <p class="credit">{t.photoBy}: <a href={p.photo.sourceUrl}>{p.photo.author}</a>, {p.photo.license}</p>
-            )}
-            <div class="links">
-              {p.links.some((l) => l.type === 'map') ? null : (
-                <a class="btn" target="_blank" rel="noopener" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.query)}`}>{t.map}</a>
-              )}
-              {p.links.map((l) => (
-                <a class="btn" target="_blank" rel="noopener" href={l.url}>{l.label ?? t[l.type]}</a>
-              ))}
-            </div>
-          </article>
-        ))}
+        {shown.map((p) => <Card key={p.id} p={p} lang={lang} t={t} />)}
       </div>
     </>
   );

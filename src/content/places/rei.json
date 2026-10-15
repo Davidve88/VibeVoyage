@@ -11,9 +11,9 @@
     2.1769
   ],
   "text": {
-    "en": "A beautifully preserved medieval royal square beside the cathedral, home to the City History Museum with Roman ruins beneath it.",
-    "de": "Ein wunderbar erhaltener mittelalterlicher Königsplatz neben der Kathedrale, mit dem Stadtgeschichtsmuseum und römischen Ruinen darunter.",
-    "es": "Una plaza real medieval magníficamente conservada junto a la catedral, sede del Museo de Historia de la Ciudad con ruinas romanas debajo."
+    "en": "A beautifully preserved medieval royal square beside the cathedral, home to the City History Museum with Roman ruins beneath it. Its buildings were once the seat of the Counts of Barcelona and the kings of Aragon, and the square is one of the best-preserved medieval ensembles in the city.",
+    "de": "Ein wunderbar erhaltener mittelalterlicher Königsplatz neben der Kathedrale, mit dem Stadtgeschichtsmuseum und römischen Ruinen darunter. Die Gebäude waren einst Sitz der Grafen von Barcelona und der Könige von Aragón, und der Platz zählt zu den besterhaltenen mittelalterlichen Ensembles der Stadt.",
+    "es": "Una plaza real medieval magníficamente conservada junto a la catedral, sede del Museo de Historia de la Ciudad con ruinas romanas debajo. Sus edificios fueron sede de los condes de Barcelona y de los reyes de Aragón, y la plaza es uno de los conjuntos medievales mejor conservados de la ciudad."
   },
   "links": [
     {
@@ -26,5 +26,22 @@
     "author": "Alex Gompons",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_del_Rei_Barcelona_42.jpg"
+  },
+  "good": {
+    "en": [
+      "Look for the great hall, the Saló del Tinell, and the Gothic chapel of Santa Àgata on the square.",
+      "The square is quiet early in the morning and makes a fine photo stop.",
+      "The museum entrance leads down to the Roman remains below ground."
+    ],
+    "de": [
+      "Suche den großen Saal, den Saló del Tinell, und die gotische Kapelle Santa Àgata am Platz.",
+      "Früh am Morgen ist der Platz ruhig und ein schöner Fotostopp.",
+      "Der Museumseingang führt hinunter zu den römischen Überresten unter der Erde."
+    ],
+    "es": [
+      "Busca el gran salón, el Saló del Tinell, y la capilla gótica de Santa Àgata en la plaza.",
+      "A primera hora la plaza está tranquila y es una buena parada fotográfica.",
+      "La entrada del museo baja a los restos romanos bajo tierra."
+    ]
   }
 }

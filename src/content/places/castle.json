@@ -11,9 +11,9 @@
     2.1665
   ],
   "text": {
-    "en": "A hilltop fortress with military and political-history exhibitions and sweeping views of the port, sea and city.",
-    "de": "Eine Festung auf dem Hügel mit Ausstellungen zur Militär- und Politikgeschichte und weitem Blick auf Hafen, Meer und Stadt.",
-    "es": "Una fortaleza en lo alto de la colina con exposiciones de historia militar y política y vistas amplias del puerto, el mar y la ciudad."
+    "en": "A hilltop fortress with military and political-history exhibitions and sweeping views of the port, sea and city. The fortress has stood on this hill since the 17th century and was rebuilt in the 18th; it long served as a prison and military site.",
+    "de": "Eine Festung auf dem Hügel mit Ausstellungen zur Militär- und Politikgeschichte und weitem Blick auf Hafen, Meer und Stadt. Die Festung steht seit dem 17. Jahrhundert auf diesem Hügel und wurde im 18. Jahrhundert neu gebaut; lange diente sie als Gefängnis und Militärstützpunkt.",
+    "es": "Una fortaleza en lo alto de la colina con exposiciones de historia militar y política y vistas amplias del puerto, el mar y la ciudad. La fortaleza se alza en esta colina desde el siglo XVII y se reconstruyó en el XVIII; durante mucho tiempo sirvió de prisión y de instalación militar."
   },
   "links": [
     {
@@ -26,5 +26,22 @@
     "author": "Txllxt TxllxT",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Montju%C3%AFc_-_Castell_de_Montju%C3%AFc_1799_-_Carretera_de_Montju%C3%AFc_-_Panorama_View_of_the_Castle_04.jpg"
+  },
+  "good": {
+    "en": [
+      "You can reach the hilltop by the Montjuïc cable car, which adds a view of the port on the way.",
+      "The walk along the ramparts gives some of the widest views over the harbour and the sea.",
+      "Choose a clear day: haze can hide the best views."
+    ],
+    "de": [
+      "Den Gipfel erreichst du mit der Montjuïc-Seilbahn, die unterwegs zusätzlich einen Blick auf den Hafen bietet.",
+      "Der Gang entlang der Festungsmauern bietet einige der weitesten Ausblicke über Hafen und Meer.",
+      "Wähle einen klaren Tag: Dunst kann die besten Ausblicke verdecken."
+    ],
+    "es": [
+      "Puedes llegar a la cima en el teleférico de Montjuïc, que además ofrece una vista del puerto por el camino.",
+      "El paseo por las murallas ofrece algunas de las vistas más amplias del puerto y del mar.",
+      "Elige un día despejado: la calima puede ocultar las mejores vistas."
+    ]
   }
 }

@@ -11,14 +11,31 @@
     2.157
   ],
   "text": {
-    "en": "A former independent village with a local feel: leafy squares, independent shops and cafés. A good place for a relaxed lunch or afternoon. It sits below Park Güell.",
-    "de": "Ein ehemals eigenständiges Dorf mit lokalem Flair: grüne Plätze, kleine Läden und Cafés. Ideal für ein entspanntes Mittagessen. Es liegt unterhalb des Park Güell.",
-    "es": "Un antiguo pueblo independiente con aire local: plazas arboladas, tiendas independientes y cafés. Un buen lugar para una comida o una tarde tranquila. Está justo debajo del Park Güell."
+    "en": "A former independent village with a local feel: leafy squares, independent shops and cafés. A good place for a relaxed lunch or afternoon. It sits below Park Güell. It was a separate town until it was absorbed into Barcelona in 1897, and it has kept a strong neighbourhood identity.",
+    "de": "Ein ehemals eigenständiges Dorf mit lokalem Flair: grüne Plätze, kleine Läden und Cafés. Ideal für ein entspanntes Mittagessen. Es liegt unterhalb des Park Güell. Es war eine eigene Stadt, bis es 1897 in Barcelona eingegliedert wurde, und hat sich eine starke Viertelidentität bewahrt.",
+    "es": "Un antiguo pueblo independiente con aire local: plazas arboladas, tiendas independientes y cafés. Un buen lugar para una comida o una tarde tranquila. Está justo debajo del Park Güell. Fue una población independiente hasta que se integró en Barcelona en 1897, y ha conservado una fuerte identidad de barrio."
   },
   "photo": {
     "file": "gracia.jpg",
     "author": "Mattsjc",
     "license": "CC BY 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Plaza_del_Sol_in_Barcelona.jpg"
+  },
+  "good": {
+    "en": [
+      "Plaça del Sol and Plaça de la Vila, with its clock tower, are lively places to stop for a drink or a meal.",
+      "In August the streets are decorated in elaborate themes for the Festa Major de Gràcia.",
+      "It is flat and easy to walk, which makes it a gentle afternoon after Park Güell."
+    ],
+    "de": [
+      "Die Plaça del Sol und die Plaça de la Vila mit ihrem Uhrturm sind lebendige Orte für ein Getränk oder eine Mahlzeit.",
+      "Im August werden die Straßen für das Festa Major de Gràcia aufwendig nach Mottos geschmückt.",
+      "Es ist flach und leicht zu Fuß zu erkunden, ein sanfter Nachmittag nach dem Park Güell."
+    ],
+    "es": [
+      "La plaza del Sol y la plaza de la Vila, con su torre del reloj, son lugares animados para tomar algo o comer.",
+      "En agosto las calles se decoran con temas elaborados para la Festa Major de Gràcia.",
+      "Es llano y fácil de recorrer a pie, una tarde tranquila después del Park Güell."
+    ]
   }
 }

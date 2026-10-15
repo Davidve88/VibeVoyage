@@ -11,9 +11,9 @@
     2.1517
   ],
   "text": {
-    "en": "An evening show of water, light and music at the foot of Montjuïc, right below MNAC. It is free and needs no ticket, and it pairs well with a Montjuïc day: see MNAC or the castle earlier, have dinner nearby or in Raval, then come back for the show.",
-    "de": "Eine abendliche Show aus Wasser, Licht und Musik am Fuß des Montjuïc, direkt unterhalb des MNAC. Sie ist kostenlos und braucht kein Ticket und passt gut zu einem Montjuïc-Tag: erst MNAC oder Burg besuchen, in der Nähe oder im Raval zu Abend essen und dann zur Show zurückkommen.",
-    "es": "Un espectáculo nocturno de agua, luz y música al pie de Montjuïc, justo debajo del MNAC. Es gratuito y no requiere entrada, y encaja muy bien con un día en Montjuïc: visita el MNAC o el castillo antes, cena cerca o en el Raval y vuelve para el espectáculo."
+    "en": "An evening show of water, light and music at the foot of Montjuïc, right below MNAC. It is free and needs no ticket, and it pairs well with a Montjuïc day: see MNAC or the castle earlier, have dinner nearby or in Raval, then come back for the show. It was designed by Carles Buïgas for the 1929 International Exhibition and has been a symbol of Montjuïc ever since.",
+    "de": "Eine abendliche Show aus Wasser, Licht und Musik am Fuß des Montjuïc, direkt unterhalb des MNAC. Sie ist kostenlos und braucht kein Ticket und passt gut zu einem Montjuïc-Tag: erst MNAC oder Burg besuchen, in der Nähe oder im Raval zu Abend essen und dann zur Show zurückkommen. Der Brunnen wurde von Carles Buïgas für die Weltausstellung 1929 entworfen und ist seither ein Wahrzeichen des Montjuïc.",
+    "es": "Un espectáculo nocturno de agua, luz y música al pie de Montjuïc, justo debajo del MNAC. Es gratuito y no requiere entrada, y encaja muy bien con un día en Montjuïc: visita el MNAC o el castillo antes, cena cerca o en el Raval y vuelve para el espectáculo. La diseñó Carles Buïgas para la Exposición Internacional de 1929 y desde entonces es un símbolo de Montjuïc."
   },
   "tip": {
     "en": "It does not run every night. In autumn 2026 the schedule was Thursday to Saturday, with shows at 21:00 and 21:30. Check the official schedule shortly before you go, as times and days can change for maintenance, weather or events.",
@@ -36,5 +36,22 @@
     "author": "PierreSelim",
     "license": "CC BY 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columnas_de_la_font_magica_de_montjuic.JPG"
+  },
+  "good": {
+    "en": [
+      "Arrive 15 to 20 minutes early to find a good spot near the water.",
+      "Evenings can be cooler than the day; a light layer helps.",
+      "It is crowded on show nights, so keep belongings close."
+    ],
+    "de": [
+      "Komm 15 bis 20 Minuten früher, um einen guten Platz am Wasser zu finden.",
+      "Abends kann es kühler sein als tagsüber; eine leichte Jacke hilft.",
+      "An Vorführabenden ist es voll, also halte deine Sachen nah bei dir."
+    ],
+    "es": [
+      "Llega entre 15 y 20 minutos antes para encontrar un buen sitio junto al agua.",
+      "Por la noche puede hacer más fresco que de día; una prenda ligera ayuda.",
+      "En las noches de espectáculo hay mucha gente, así que mantén tus pertenencias cerca."
+    ]
   }
 }

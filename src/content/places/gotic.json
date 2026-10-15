@@ -11,14 +11,31 @@
     2.1767
   ],
   "text": {
-    "en": "The medieval heart of Barcelona: narrow lanes, hidden squares, Roman remains, cafés and historic buildings.",
-    "de": "Das mittelalterliche Herz Barcelonas: enge Gassen, versteckte Plätze, römische Überreste, Cafés und historische Gebäude.",
-    "es": "El corazón medieval de Barcelona: callejuelas estrechas, plazas escondidas, restos romanos, cafés y edificios históricos."
+    "en": "The medieval heart of Barcelona: narrow lanes, hidden squares, Roman remains, cafés and historic buildings. It grew on the site of the Roman town of Barcino, and traces of the old walls can still be seen among the lanes.",
+    "de": "Das mittelalterliche Herz Barcelonas: enge Gassen, versteckte Plätze, römische Überreste, Cafés und historische Gebäude. Es wuchs auf dem Gelände der römischen Stadt Barcino, und Spuren der alten Mauern sind noch zwischen den Gassen zu sehen.",
+    "es": "El corazón medieval de Barcelona: callejuelas estrechas, plazas escondidas, restos romanos, cafés y edificios históricos. Creció sobre el solar de la ciudad romana de Barcino, y aún se ven restos de las antiguas murallas entre las callejuelas."
   },
   "photo": {
     "file": "gotic.jpg",
     "author": "Pierre Phaneuf from Montréal, Canada",
     "license": "CC BY-SA 2.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barri_G%C3%B2tic_at_night.jpg"
+  },
+  "good": {
+    "en": [
+      "Plaça Sant Jaume, with the city hall and the Catalan government palace, is the civic heart of the quarter.",
+      "Look for the neo-Gothic bridge over Carrer del Bisbe, built in 1928 and photographed by many visitors.",
+      "Getting a little lost is part of the charm: the lanes are narrow and wind in every direction."
+    ],
+    "de": [
+      "Die Plaça Sant Jaume mit Rathaus und Sitz der katalanischen Regierung ist das bürgerliche Herz des Viertels.",
+      "Suche die neugotische Brücke über der Carrer del Bisbe, 1928 gebaut und von vielen Besuchern fotografiert.",
+      "Sich ein wenig zu verlaufen gehört zum Reiz: Die Gassen sind eng und winden sich in alle Richtungen."
+    ],
+    "es": [
+      "La plaza Sant Jaume, con el ayuntamiento y el palacio del gobierno catalán, es el corazón cívico del barrio.",
+      "Busca el puente neogótico sobre la calle del Bisbe, construido en 1928 y fotografiado por muchos visitantes.",
+      "Perderse un poco forma parte del encanto: las callejuelas son estrechas y serpentean en todas direcciones."
+    ]
   }
 }

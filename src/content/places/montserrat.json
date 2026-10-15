@@ -11,9 +11,9 @@
     1.8376
   ],
   "text": {
-    "en": "A dramatic saw-toothed mountain and Benedictine monastery, important for Catalan identity and pilgrimage. Visit the basilica, walk short viewpoint trails, and take the cable car or rack railway up from the valley.",
-    "de": "Ein dramatischer, gezackter Berg mit Benediktinerkloster, wichtig für die katalanische Identität und als Pilgerziel. Besuche die Basilika, gehe kurze Aussichtswege und fahre mit Seilbahn oder Zahnradbahn hinauf.",
-    "es": "Una montaña dentada y espectacular con un monasterio benedictino, importante para la identidad catalana y la peregrinación. Visita la basílica, haz senderos cortos hasta miradores y sube en teleférico o cremallera desde el valle."
+    "en": "A dramatic saw-toothed mountain and Benedictine monastery, important for Catalan identity and pilgrimage. Visit the basilica, walk short viewpoint trails, and take the cable car or rack railway up from the valley. A Benedictine monastery has stood here since the 11th century, and pilgrims come to see the Black Madonna known as La Moreneta.",
+    "de": "Ein dramatischer, gezackter Berg mit Benediktinerkloster, wichtig für die katalanische Identität und als Pilgerziel. Besuche die Basilika, gehe kurze Aussichtswege und fahre mit Seilbahn oder Zahnradbahn hinauf. Hier steht seit dem 11. Jahrhundert ein Benediktinerkloster, und Pilger kommen, um die Schwarze Madonna zu sehen, genannt La Moreneta.",
+    "es": "Una montaña dentada y espectacular con un monasterio benedictino, importante para la identidad catalana y la peregrinación. Visita la basílica, haz senderos cortos hasta miradores y sube en teleférico o cremallera desde el valle. Aquí se alza un monasterio benedictino desde el siglo XI, y los peregrinos vienen a ver a la Virgen negra conocida como La Moreneta."
   },
   "how": {
     "en": "Take the R5 commuter train (towards Manresa) from Plaça d'Espanya station, every 30 minutes from about 8:30. Get there by metro line 1 (red) or 3 (green), stop Espanya. After about 1 hour, get off at Aeri de Montserrat and take the cable car (every 15 minutes, 5 minutes up). Arrive with time to spare and follow the R5 signs.",
@@ -31,5 +31,22 @@
     "author": "Richard Schneider",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monestir_de_Montserrat_vista_Roca_de_St._Jaume.jpg"
+  },
+  "good": {
+    "en": [
+      "Queues to see La Moreneta can be long; go early in the day.",
+      "It is cooler and often windier up on the mountain, so bring a layer.",
+      "Short, signed walks lead from the monastery to viewpoints with wide views."
+    ],
+    "de": [
+      "Die Schlangen, um La Moreneta zu sehen, können lang sein; geh früh am Tag.",
+      "Oben auf dem Berg ist es kühler und oft windiger, nimm also eine Jacke mit.",
+      "Kurze, ausgeschilderte Wege führen vom Kloster zu Aussichtspunkten mit weitem Blick."
+    ],
+    "es": [
+      "Las colas para ver a La Moreneta pueden ser largas; ve temprano.",
+      "Arriba, en la montaña, hace más fresco y suele haber más viento, así que lleva una prenda de abrigo.",
+      "Senderos cortos y señalizados llevan del monasterio a miradores con amplias vistas."
+    ]
   }
 }

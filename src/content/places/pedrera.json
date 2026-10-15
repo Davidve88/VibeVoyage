@@ -11,9 +11,9 @@
     2.162
   ],
   "text": {
-    "en": "Gaudí's undulating stone apartment building, with a rooftop of surreal chimneys and an attic that explains his structural ideas.",
-    "de": "Gaudís wellenförmiges Wohnhaus aus Stein, mit einem Dach voller surrealer Schornsteine und einem Dachboden, der seine Bauideen erklärt.",
-    "es": "El ondulante edificio de piedra de Gaudí, con una azotea de chimeneas surrealistas y un desván que explica sus ideas estructurales."
+    "en": "Gaudí's undulating stone apartment building, with a rooftop of surreal chimneys and an attic that explains his structural ideas. Built between 1906 and 1912, it is part of the group of Gaudí works recognised as a UNESCO World Heritage Site.",
+    "de": "Gaudís wellenförmiges Wohnhaus aus Stein, mit einem Dach voller surrealer Schornsteine und einem Dachboden, der seine Bauideen erklärt. Das Haus wurde zwischen 1906 und 1912 gebaut und gehört zu den Werken Gaudís, die zum UNESCO-Welterbe zählen.",
+    "es": "El ondulante edificio de piedra de Gaudí, con una azotea de chimeneas surrealistas y un desván que explica sus ideas estructurales. Construida entre 1906 y 1912, forma parte del conjunto de obras de Gaudí reconocidas como Patrimonio Mundial de la UNESCO."
   },
   "tip": {
     "en": "Choose one Gaudí house to visit inside and admire the other from the street.",
@@ -31,5 +31,22 @@
     "author": "Thomas Ledl",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+  },
+  "good": {
+    "en": [
+      "The rooftop with its sculptural chimneys is the highlight; allow time to walk around it.",
+      "Look for the almost entirely curved stone façade, with very few straight lines.",
+      "The attic exhibition explains Gaudí's structural ideas well and is a calm spot."
+    ],
+    "de": [
+      "Das Dach mit seinen skulpturalen Schornsteinen ist das Highlight; plane Zeit zum Herumgehen ein.",
+      "Achte auf die fast durchgehend geschwungene Steinfassade mit kaum geraden Linien.",
+      "Die Ausstellung im Dachboden erklärt Gaudís Bauideen gut und ist ein ruhiger Ort."
+    ],
+    "es": [
+      "La azotea con sus chimeneas escultóricas es lo más destacado; deja tiempo para recorrerla.",
+      "Fíjate en la fachada de piedra casi totalmente curva, con muy pocas líneas rectas.",
+      "La exposición del desván explica muy bien las ideas estructurales de Gaudí y es un lugar tranquilo."
+    ]
   }
 }

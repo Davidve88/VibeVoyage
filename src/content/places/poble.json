@@ -11,14 +11,31 @@
     2.1469
   ],
   "text": {
-    "en": "An open-air architectural village built for the 1929 International Exhibition, recreating streets, squares and buildings from across Spain. It also has craft workshops, shops and cafés.",
-    "de": "Ein Freilicht-Architekturdorf für die Weltausstellung 1929, das Straßen, Plätze und Gebäude aus ganz Spanien nachbildet. Mit Kunsthandwerk, Läden und Cafés.",
-    "es": "Un pueblo arquitectónico al aire libre creado para la Exposición Internacional de 1929, que recrea calles, plazas y edificios de toda España. Con talleres de artesanía, tiendas y cafés."
+    "en": "An open-air architectural village built for the 1929 International Exhibition, recreating streets, squares and buildings from across Spain. It also has craft workshops, shops and cafés. Built in 1929, it brings together copies of historic buildings and streets from different regions of Spain in a single walkable village.",
+    "de": "Ein Freilicht-Architekturdorf für die Weltausstellung 1929, das Straßen, Plätze und Gebäude aus ganz Spanien nachbildet. Mit Kunsthandwerk, Läden und Cafés. Das 1929 erbaute Dorf versammelt Nachbauten historischer Gebäude und Straßen aus verschiedenen Regionen Spaniens an einem Ort zum Spazierengehen.",
+    "es": "Un pueblo arquitectónico al aire libre creado para la Exposición Internacional de 1929, que recrea calles, plazas y edificios de toda España. Con talleres de artesanía, tiendas y cafés. Construido en 1929, reúne réplicas de edificios y calles históricos de distintas regiones de España en un único pueblo que se recorre a pie."
   },
   "photo": {
     "file": "poble.jpg",
     "author": "Amadalvarez",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:PobleEspanyol-BCN-4864.jpg"
+  },
+  "good": {
+    "en": [
+      "Wander through the craft workshops, where you can watch artisans at work and buy a souvenir.",
+      "It is a fair walk uphill, so combine it with MNAC and the Magic Fountain in one Montjuïc day.",
+      "There are shaded squares and cafés for a rest halfway."
+    ],
+    "de": [
+      "Schlendere durch die Kunsthandwerks-Werkstätten, in denen du Handwerkern bei der Arbeit zusehen und ein Souvenir kaufen kannst.",
+      "Der Weg bergauf ist ein ordentliches Stück; verbinde den Besuch mit MNAC und Magischem Brunnen an einem Montjuïc-Tag.",
+      "Es gibt schattige Plätze und Cafés für eine Pause zwischendurch."
+    ],
+    "es": [
+      "Pasea por los talleres de artesanía, donde puedes ver trabajar a los artesanos y comprar un recuerdo.",
+      "Hay un buen trecho cuesta arriba, así que combínalo con el MNAC y la Fuente Mágica en un día en Montjuïc.",
+      "Hay plazas con sombra y cafés para descansar a mitad de camino."
+    ]
   }
 }

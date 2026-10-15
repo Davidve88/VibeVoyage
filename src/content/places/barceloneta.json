@@ -11,14 +11,31 @@
     2.1896
   ],
   "text": {
-    "en": "Barcelona's historic seaside neighbourhood and beach, with a promenade, port views and a relaxed atmosphere.",
-    "de": "Barcelonas historisches Meeresviertel mit Strand, Promenade, Hafenblick und entspannter Atmosphäre.",
-    "es": "El histórico barrio marinero de Barcelona y su playa, con paseo marítimo, vistas al puerto y un ambiente relajado."
+    "en": "Barcelona's historic seaside neighbourhood and beach, with a promenade, port views and a relaxed atmosphere. The district was laid out in the 18th century as a grid of narrow streets for families displaced by the building of the Ciutadella fortress.",
+    "de": "Barcelonas historisches Meeresviertel mit Strand, Promenade, Hafenblick und entspannter Atmosphäre. Das Viertel wurde im 18. Jahrhundert als Raster schmaler Straßen für Familien angelegt, die durch den Bau der Ciutadella-Festung vertrieben worden waren.",
+    "es": "El histórico barrio marinero de Barcelona y su playa, con paseo marítimo, vistas al puerto y un ambiente relajado. El barrio se trazó en el siglo XVIII como una cuadrícula de calles estrechas para las familias desplazadas por la construcción de la fortaleza de la Ciutadella."
   },
   "photo": {
     "file": "barceloneta.jpg",
     "author": "DimiTalen",
     "license": "CC0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Promenade_and_beach,_Platja_de_la_Barceloneta,_Barcelona,_2015.jpg"
+  },
+  "good": {
+    "en": [
+      "It is known for its seafood restaurants; ask for the daily fish and rice dishes.",
+      "The beach is busiest on summer weekends; weekdays and mornings are calmer.",
+      "Keep an eye on belongings on the sand and in busy streets."
+    ],
+    "de": [
+      "Das Viertel ist für seine Fischrestaurants bekannt; frage nach den Tagesgerichten mit Fisch und Reis.",
+      "Der Strand ist an Sommerwochenenden am vollsten; unter der Woche und morgens ist es ruhiger.",
+      "Behalte deine Sachen am Strand und in belebten Straßen im Blick."
+    ],
+    "es": [
+      "El barrio es conocido por sus restaurantes de pescado y marisco; pregunta por los platos del día de pescado y arroz.",
+      "La playa está más concurrida en los fines de semana de verano; entre semana y por la mañana hay más calma.",
+      "Vigila tus pertenencias en la arena y en las calles concurridas."
+    ]
   }
 }

@@ -11,9 +11,9 @@
     2.1744
   ],
   "text": {
-    "en": "Gaudí's extraordinary, still-unfinished basilica: a forest-like interior, coloured stained glass, sculpted façades and a museum about its construction. Book a timed ticket; tower access is optional.",
-    "de": "Gaudís außergewöhnliche, noch unvollendete Basilika: ein waldartiges Inneres, farbige Glasfenster, skulptierte Fassaden und ein Museum zum Bau. Zeitfenster-Ticket buchen; der Turm ist optional.",
-    "es": "La extraordinaria basílica inacabada de Gaudí: un interior como un bosque, vidrieras de colores, fachadas esculpidas y un museo sobre su construcción. Reserva una entrada con hora; subir a las torres es opcional."
+    "en": "Gaudí's extraordinary, still-unfinished basilica: a forest-like interior, coloured stained glass, sculpted façades and a museum about its construction. Book a timed ticket; tower access is optional. Construction began in 1882 and Gaudí took over the project the following year; work has continued ever since.",
+    "de": "Gaudís außergewöhnliche, noch unvollendete Basilika: ein waldartiges Inneres, farbige Glasfenster, skulptierte Fassaden und ein Museum zum Bau. Zeitfenster-Ticket buchen; der Turm ist optional. Der Bau begann 1882, und Gaudí übernahm das Projekt im Jahr darauf; die Arbeiten gehen bis heute weiter.",
+    "es": "La extraordinaria basílica inacabada de Gaudí: un interior como un bosque, vidrieras de colores, fachadas esculpidas y un museo sobre su construcción. Reserva una entrada con hora; subir a las torres es opcional. Las obras comenzaron en 1882 y Gaudí asumió el proyecto al año siguiente; los trabajos continúan hasta hoy."
   },
   "tip": {
     "en": "Go in the morning, then have lunch in Gràcia and see Park Güell in the afternoon.",
@@ -40,5 +40,22 @@
     "author": "Ank Kumar",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nativity_towers,_Sagrada_Familia,_Barcelona_08.jpg"
+  },
+  "good": {
+    "en": [
+      "Book a timed ticket ahead of your visit, especially for the towers.",
+      "The Nativity façade is Gaudí's own work; the Passion façade is a much starker, more modern style by a later sculptor.",
+      "Morning light tends to bring cooler blues and greens into the nave, late afternoon warmer reds and oranges."
+    ],
+    "de": [
+      "Buche dein Zeitfenster-Ticket im Voraus, besonders für die Türme.",
+      "Die Geburtsfassade stammt von Gaudí selbst; die Passionsfassade ist deutlich strenger und moderner und stammt von einem späteren Bildhauer.",
+      "Das Morgenlicht bringt eher kühle Blau- und Grüntöne ins Kirchenschiff, der späte Nachmittag wärmere Rot- und Orangetöne."
+    ],
+    "es": [
+      "Reserva una entrada con hora antes de tu visita, sobre todo para las torres.",
+      "La fachada del Nacimiento es obra del propio Gaudí; la de la Pasión es de un estilo mucho más austero y moderno, de un escultor posterior.",
+      "La luz de la mañana suele traer azules y verdes más fríos a la nave, y la de última hora de la tarde rojos y naranjas más cálidos."
+    ]
   }
 }

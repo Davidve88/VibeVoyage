@@ -17,6 +17,8 @@ const places = defineCollection({
     text: tri,
     tip: tri.optional(),
     how: tri.optional(),
+    // 2-4 short evergreen bullets per language (best time, what to look for, access, booking).
+    good: z.object({ en: z.array(z.string()), de: z.array(z.string()), es: z.array(z.string()) }).optional(),
     links: z
       .array(
         z.object({

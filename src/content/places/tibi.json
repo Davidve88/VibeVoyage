@@ -11,9 +11,9 @@
     2.119
   ],
   "text": {
-    "en": "Barcelona's highest hill, crowned by the Temple Expiatori del Sagrat Cor, with wide views over city and sea. The historic amusement park is nearby.",
-    "de": "Barcelonas höchster Hügel, gekrönt von der Kirche Sagrat Cor, mit weitem Blick über Stadt und Meer. Der historische Vergnügungspark liegt in der Nähe.",
-    "es": "La colina más alta de Barcelona, coronada por el Templo Expiatorio del Sagrado Corazón, con amplias vistas de la ciudad y el mar. El histórico parque de atracciones está cerca."
+    "en": "Barcelona's highest hill, crowned by the Temple Expiatori del Sagrat Cor, with wide views over city and sea. The historic amusement park is nearby. At about 500 metres, it is the highest peak in the Collserola range, and the church at the top was built over several decades from 1902.",
+    "de": "Barcelonas höchster Hügel, gekrönt von der Kirche Sagrat Cor, mit weitem Blick über Stadt und Meer. Der historische Vergnügungspark liegt in der Nähe. Mit rund 500 Metern ist er der höchste Gipfel der Collserola-Berge, und die Kirche auf dem Gipfel entstand über mehrere Jahrzehnte ab 1902.",
+    "es": "La colina más alta de Barcelona, coronada por el Templo Expiatorio del Sagrado Corazón, con amplias vistas de la ciudad y el mar. El histórico parque de atracciones está cerca. Con unos 500 metros, es la cumbre más alta de la sierra de Collserola, y la iglesia de la cima se construyó a lo largo de varias décadas a partir de 1902."
   },
   "tip": {
     "en": "Less essential than Montserrat for first-time cultural visitors; a nice extra if you have time.",
@@ -40,5 +40,22 @@
     "author": "Lluís Ferrer",
     "license": "CC0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibidabo,_Barcelona_(51865256587).jpg"
+  },
+  "good": {
+    "en": [
+      "Getting to the top involves several connections, so check the transport page before you set off.",
+      "Choose a clear day, because haze can hide the sea and the city.",
+      "The historic amusement park next to the church has been open since 1901."
+    ],
+    "de": [
+      "Der Weg zum Gipfel erfordert mehrere Verbindungen; prüfe vor dem Aufbruch die Seite zur Anreise.",
+      "Wähle einen klaren Tag, denn Dunst kann Meer und Stadt verdecken.",
+      "Der historische Vergnügungspark neben der Kirche ist seit 1901 geöffnet."
+    ],
+    "es": [
+      "Llegar a la cima implica varios transbordos, así que consulta la página de transporte antes de salir.",
+      "Elige un día despejado, porque la calima puede ocultar el mar y la ciudad.",
+      "El histórico parque de atracciones junto a la iglesia está abierto desde 1901."
+    ]
   }
 }

@@ -11,9 +11,9 @@
     2.1809
   ],
   "text": {
-    "en": "A major museum in five adjoining medieval palaces, tracing Picasso's early years and his deep connection with Barcelona.",
-    "de": "Ein bedeutendes Museum in fünf aneinandergrenzenden mittelalterlichen Palästen; es zeigt Picassos frühe Jahre und seine enge Verbindung zu Barcelona.",
-    "es": "Un gran museo en cinco palacios medievales contiguos, que recorre los primeros años de Picasso y su estrecha relación con Barcelona."
+    "en": "A major museum in five adjoining medieval palaces, tracing Picasso's early years and his deep connection with Barcelona. The museum opened in 1963 and focuses on Picasso's early work, including his series of variations on Las Meninas.",
+    "de": "Ein bedeutendes Museum in fünf aneinandergrenzenden mittelalterlichen Palästen; es zeigt Picassos frühe Jahre und seine enge Verbindung zu Barcelona. Das Museum eröffnete 1963 und konzentriert sich auf Picassos Frühwerk, darunter seine Serie von Variationen zu „Las Meninas“.",
+    "es": "Un gran museo en cinco palacios medievales contiguos, que recorre los primeros años de Picasso y su estrecha relación con Barcelona. El museo abrió en 1963 y se centra en la obra temprana de Picasso, incluida su serie de variaciones sobre Las Meninas."
   },
   "links": [
     {
@@ -26,5 +26,22 @@
     "author": "haitham alfalah",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu-Picasso_Barcelona.jpg"
+  },
+  "good": {
+    "en": [
+      "The palaces stand on Carrer de Montcada, a handsome medieval street that is pleasant to stroll along.",
+      "Book a time slot ahead, because the queue at the door can be long.",
+      "Allow about two hours; the rooms are compact and easy to follow."
+    ],
+    "de": [
+      "Die Paläste stehen in der Carrer de Montcada, einer schönen mittelalterlichen Gasse, in der man gern spaziert.",
+      "Buche vorab ein Zeitfenster, denn die Schlange an der Tür kann lang sein.",
+      "Plane etwa zwei Stunden ein; die Räume sind überschaubar und leicht zu verfolgen."
+    ],
+    "es": [
+      "Los palacios están en la calle Montcada, una bonita calle medieval que invita a pasear.",
+      "Reserva una franja horaria con antelación, porque la cola en la puerta puede ser larga.",
+      "Calcula unas dos horas; las salas son compactas y fáciles de recorrer."
+    ]
   }
 }

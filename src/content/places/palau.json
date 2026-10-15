@@ -11,14 +11,31 @@
     2.1753
   ],
   "text": {
-    "en": "A dazzling Catalan Modernist concert hall by Lluís Domènech i Montaner, full of stained glass, mosaics and sculpture. Visit on a guided tour or attend a concert.",
-    "de": "Ein glanzvoller katalanischer Jugendstil-Konzertsaal von Lluís Domènech i Montaner, voller Glasmalerei, Mosaiken und Skulpturen. Besuch per Führung oder bei einem Konzert.",
-    "es": "Una deslumbrante sala de conciertos modernista catalana de Lluís Domènech i Montaner, repleta de vidrieras, mosaicos y esculturas. Se visita con una visita guiada o asistiendo a un concierto."
+    "en": "A dazzling Catalan Modernist concert hall by Lluís Domènech i Montaner, full of stained glass, mosaics and sculpture. Visit on a guided tour or attend a concert. Built between 1905 and 1908, it is a UNESCO World Heritage Site, and its main hall is crowned by a stained-glass skylight.",
+    "de": "Ein glanzvoller katalanischer Jugendstil-Konzertsaal von Lluís Domènech i Montaner, voller Glasmalerei, Mosaiken und Skulpturen. Besuch per Führung oder bei einem Konzert. Der Bau entstand zwischen 1905 und 1908, ist UNESCO-Welterbe, und der Hauptsaal wird von einem Oberlicht aus Buntglas gekrönt.",
+    "es": "Una deslumbrante sala de conciertos modernista catalana de Lluís Domènech i Montaner, repleta de vidrieras, mosaicos y esculturas. Se visita con una visita guiada o asistiendo a un concierto. Construido entre 1905 y 1908, es Patrimonio Mundial de la UNESCO, y su sala principal está coronada por una claraboya de vidrieras."
   },
   "photo": {
     "file": "palau.jpg",
     "author": "Alvesgaspar",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_Musica_May_2026-4.jpg"
+  },
+  "good": {
+    "en": [
+      "Visit on a guided tour or, even better, hear a concert in the hall itself.",
+      "Look up at the stained-glass skylight in the concert hall.",
+      "It is in a narrow street near Via Laietana, so it is easy to miss; use a map."
+    ],
+    "de": [
+      "Besuche den Palau bei einer Führung oder, noch besser, bei einem Konzert im Saal selbst.",
+      "Schau im Konzertsaal nach oben zum Oberlicht aus Buntglas.",
+      "Er liegt in einer engen Gasse nahe der Via Laietana und ist leicht zu übersehen; nutze die Karte."
+    ],
+    "es": [
+      "Visítalo con una visita guiada o, mejor aún, escucha un concierto en la propia sala.",
+      "Mira hacia arriba, a la claraboya de vidrieras de la sala de conciertos.",
+      "Está en una calle estrecha cerca de la Via Laietana y es fácil pasarlo por alto; usa el mapa."
+    ]
   }
 }

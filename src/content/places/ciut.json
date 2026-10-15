@@ -11,14 +11,31 @@
     2.187
   ],
   "text": {
-    "en": "A large central park with fountains, shaded walks, the Catalan Parliament and the nearby Arc de Triomf. A good low-effort break between museums.",
-    "de": "Ein großer Park im Zentrum mit Brunnen, schattigen Wegen, dem katalanischen Parlament und dem nahen Arc de Triomf. Eine gute, entspannte Pause zwischen Museen.",
-    "es": "Un gran parque céntrico con fuentes, paseos sombreados, el Parlamento de Cataluña y el cercano Arco de Triunfo. Una buena pausa tranquila entre museos."
+    "en": "A large central park with fountains, shaded walks, the Catalan Parliament and the nearby Arc de Triomf. A good low-effort break between museums. The park was laid out for the 1888 Universal Exhibition on the site of a former military citadel, and also holds the city zoo.",
+    "de": "Ein großer Park im Zentrum mit Brunnen, schattigen Wegen, dem katalanischen Parlament und dem nahen Arc de Triomf. Eine gute, entspannte Pause zwischen Museen. Der Park wurde für die Weltausstellung 1888 auf dem Gelände einer früheren Militärzitadelle angelegt und beherbergt auch den Zoo der Stadt.",
+    "es": "Un gran parque céntrico con fuentes, paseos sombreados, el Parlamento de Cataluña y el cercano Arco de Triunfo. Una buena pausa tranquila entre museos. El parque se diseñó para la Exposición Universal de 1888 sobre el solar de una antigua ciudadela militar, y alberga también el zoo de la ciudad."
   },
   "photo": {
     "file": "ciut.jpg",
     "author": "Isiwal",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barcelona_Parc_Ciutadella_cascada.jpg"
+  },
+  "good": {
+    "en": [
+      "Look for the monumental Cascada fountain, which the young Gaudí helped to design.",
+      "You can hire a rowing boat on the lake for a relaxed half hour.",
+      "It is a good shaded break between the nearby Picasso Museum and the seafront."
+    ],
+    "de": [
+      "Suche den monumentalen Brunnen Cascada, an dessen Entwurf der junge Gaudí mitwirkte.",
+      "Auf dem See kannst du ein Ruderboot mieten, für eine entspannte halbe Stunde.",
+      "Ein guter, schattiger Zwischenstopp zwischen dem nahen Picasso-Museum und der Küste."
+    ],
+    "es": [
+      "Busca la monumental fuente de la Cascada, en cuyo diseño colaboró el joven Gaudí.",
+      "En el lago puedes alquilar una barca de remos para pasar un rato tranquilo.",
+      "Es una buena pausa a la sombra entre el cercano Museo Picasso y el frente marítimo."
+    ]
   }
 }
