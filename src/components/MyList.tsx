@@ -1,5 +1,6 @@
 import { toggleSaved, toggleVisited, type ListState } from '../lib/list-store';
 import type { PlaceData, Strings } from './PlaceList';
+import ShareBar from './ShareBar';
 
 interface Props {
   places: PlaceData[];
@@ -45,6 +46,7 @@ export default function MyList({ places, t, list, goTo }: Props) {
 
   return (
     <section>
+      <ShareBar places={places} t={t} list={list} />
       {toVisit.length > 0 && (
         <>
           <h2 class="lh">{t.toVisit} ({toVisit.length})</h2>

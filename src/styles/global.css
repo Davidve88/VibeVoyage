@@ -77,3 +77,5 @@ footer{color:var(--mute);font-size:.85rem;margin:28px 0 8px}
 .pop .btn{padding:10px 12px}
 .pop .linkbtn{text-align:left;padding:6px 0}
 .leaflet-container{font:inherit}
+.sharebar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 4px}
+.shmsg{color:var(--mute);font-size:.9rem;overflow-wrap:anywhere}

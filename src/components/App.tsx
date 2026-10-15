@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { THEMES, type Lang } from '../data/taxonomy';
-import { setKnownIds, useList } from '../lib/list-store';
+import { mergeSaved, parseIds, setKnownIds, useList } from '../lib/list-store';
 import MyList from './MyList';
 import PlaceCards, { type PlaceData, type Strings } from './PlaceList';
 
@@ -18,11 +18,23 @@ export default function App({ lang, places, t }: Props) {
   const list = useList();
   const [view, setViewState] = useState<View>('places');
   const [theme, setTheme] = useState<string | null>(null);
+  // Ids from a received share link (#shared=a,b,c), awaiting the visitor's choice.
+  const [incoming, setIncoming] = useState<string[]>([]);
   // Leaflet (and its CSS) load only when the map is first opened.
   const [MapComp, setMapComp] = useState<any>(null);
   useEffect(() => {
     if (view === 'map' && !MapComp) import('./MapView').then((m) => setMapComp(() => m.default));
   }, [view, MapComp]);
+
+  useEffect(() => {
+    const m = location.hash.match(/^#shared=(.*)$/);
+    if (m) setIncoming(parseIds(decodeURIComponent(m[1])));
+  }, []);
+
+  const clearShared = () => {
+    setIncoming([]);
+    history.replaceState(null, '', location.pathname + location.search);
+  };
 
   useEffect(() => {
     setViewState(viewFromHash());
@@ -68,6 +80,14 @@ export default function App({ lang, places, t }: Props) {
           </button>
         ))}
       </div>
+
+      {incoming.length > 0 && (
+        <section class="wel" role="status">
+          <p><strong>{incoming.length === 1 ? t.sharedOne : t.sharedBanner.replace('{n}', String(incoming.length))}</strong></p>
+          <button type="button" onClick={() => { mergeSaved(incoming); clearShared(); setView('list'); }}>{t.addAll}</button>{' '}
+          <button type="button" class="btn save" onClick={clearShared}>{t.ignore}</button>
+        </section>
+      )}
 
       {view !== 'list' && (
         <>
