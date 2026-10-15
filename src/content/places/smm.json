@@ -1,9 +1,11 @@
 {
   "name": "Santa Maria del Mar",
-  "area": "gothic",
+  "area": "born",
   "themes": [
     "history"
   ],
+  "cost": "mixed",
+  "time": "30–45 min",
   "coords": [
     41.3835,
     2.1823

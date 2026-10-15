@@ -6,6 +6,8 @@ export interface PlaceData {
   name: string;
   area: keyof typeof AREAS;
   themes: (keyof typeof THEMES)[];
+  cost: string;
+  time: string;
   text: string;
   tip?: string;
   how?: string;
@@ -17,7 +19,7 @@ export interface PlaceData {
 // Plain strings only (islands receive serialisable props).
 export interface ListStrings {
   area: string; theme: string; clear: string; one: string; many: string; none: string;
-  map: string; tix: string; web: string; how: string; photoBy: string;
+  map: string; tix: string; web: string; how: string; time: string; photoBy: string;
 }
 
 interface Props { lang: Lang; places: PlaceData[]; t: ListStrings }
@@ -59,6 +61,7 @@ export default function PlaceList({ lang, places, t }: Props) {
             {p.photo && <img src={p.photo.src} alt="" loading="lazy" />}
             <h3>{p.name}</h3>
             <p class="meta">{AREAS[p.area][lang]} · {p.themes.map((x) => THEMES[x][lang]).join(', ')}</p>
+            <p class="badges"><span class="badge">{p.cost}</span> <span class="time">{t.time}: {p.time}</span></p>
             <p>{p.text}</p>
             {p.tip && <div class="tip">{p.tip}</div>}
             {p.how && <div class="tip"><strong>{t.how}:</strong> {p.how}</div>}

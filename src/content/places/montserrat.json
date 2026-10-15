@@ -1,11 +1,11 @@
 {
   "name": "Montserrat",
-  "area": "daytrips",
+  "area": "beyond",
   "themes": [
-    "nature",
-    "history",
-    "views"
+    "daytrips"
   ],
+  "cost": "transport",
+  "time": "5–8 h",
   "coords": [
     41.5933,
     1.8376

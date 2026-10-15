@@ -1,10 +1,11 @@
 {
   "name": "Palau de la Música Catalana",
-  "area": "gothic",
+  "area": "born",
   "themes": [
-    "gaudi",
-    "art"
+    "gaudi"
   ],
+  "cost": "paid",
+  "time": "1 h",
   "coords": [
     41.3875,
     2.1753

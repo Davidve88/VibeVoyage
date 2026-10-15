@@ -2,9 +2,10 @@
   "name": "La Rambla & La Boqueria",
   "area": "raval",
   "themes": [
-    "food",
-    "history"
+    "walks"
   ],
+  "cost": "free",
+  "time": "45–90 min",
   "coords": [
     41.3818,
     2.1735

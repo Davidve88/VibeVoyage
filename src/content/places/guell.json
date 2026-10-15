@@ -2,10 +2,10 @@
   "name": "Park Güell",
   "area": "gracia",
   "themes": [
-    "gaudi",
-    "nature",
-    "views"
+    "gaudi"
   ],
+  "cost": "paid",
+  "time": "1.5–2.5 h",
   "coords": [
     41.4145,
     2.1527

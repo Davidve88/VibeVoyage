@@ -2,9 +2,10 @@
   "name": "Barceloneta",
   "area": "seafront",
   "themes": [
-    "nature",
-    "food"
+    "parks"
   ],
+  "cost": "free",
+  "time": "1.5–3 h",
   "coords": [
     41.3807,
     2.1896

@@ -2,9 +2,10 @@
   "name": "MNAC – National Art Museum of Catalonia",
   "area": "montjuic",
   "themes": [
-    "art",
-    "views"
+    "art"
   ],
+  "cost": "freeSlots",
+  "time": "2–3 h",
   "coords": [
     41.3685,
     2.1534

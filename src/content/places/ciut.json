@@ -1,9 +1,11 @@
 {
   "name": "Parc de la Ciutadella",
-  "area": "gothic",
+  "area": "born",
   "themes": [
-    "nature"
+    "parks"
   ],
+  "cost": "free",
+  "time": "45–90 min",
   "coords": [
     41.3881,
     2.187

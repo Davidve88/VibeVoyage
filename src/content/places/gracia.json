@@ -2,8 +2,10 @@
   "name": "Gràcia",
   "area": "gracia",
   "themes": [
-    "food"
+    "walks"
   ],
+  "cost": "free",
+  "time": "1–2 h",
   "coords": [
     41.4036,
     2.157

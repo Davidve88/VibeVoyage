@@ -2,8 +2,10 @@
   "name": "Barri Gòtic",
   "area": "gothic",
   "themes": [
-    "history"
+    "walks"
   ],
+  "cost": "free",
+  "time": "1.5–2.5 h",
   "coords": [
     41.3833,
     2.1767

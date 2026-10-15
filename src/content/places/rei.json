@@ -2,9 +2,10 @@
   "name": "Plaça del Rei",
   "area": "gothic",
   "themes": [
-    "history",
-    "art"
+    "history"
   ],
+  "cost": "free",
+  "time": "20–30 min",
   "coords": [
     41.3846,
     2.1769

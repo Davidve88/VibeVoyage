@@ -1,7 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
-import { AREAS, THEMES } from './data/taxonomy';
+import { AREAS, COSTS, THEMES } from './data/taxonomy';
 
 const tri = z.object({ en: z.string(), de: z.string(), es: z.string() });
 
@@ -11,6 +11,8 @@ const places = defineCollection({
     name: z.string(),
     area: z.enum(Object.keys(AREAS) as [keyof typeof AREAS, ...(keyof typeof AREAS)[]]),
     themes: z.array(z.enum(Object.keys(THEMES) as [keyof typeof THEMES, ...(keyof typeof THEMES)[]])),
+    cost: z.enum(Object.keys(COSTS) as [keyof typeof COSTS, ...(keyof typeof COSTS)[]]),
+    time: z.string(),
     coords: z.tuple([z.number(), z.number()]),
     text: tri,
     tip: tri.optional(),

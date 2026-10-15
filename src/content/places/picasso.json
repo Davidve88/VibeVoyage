@@ -1,9 +1,11 @@
 {
   "name": "Picasso Museum",
-  "area": "gothic",
+  "area": "born",
   "themes": [
     "art"
   ],
+  "cost": "freeSlots",
+  "time": "1.5–2 h",
   "coords": [
     41.3852,
     2.1809

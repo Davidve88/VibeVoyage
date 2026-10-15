@@ -2,9 +2,10 @@
   "name": "Montjuïc Castle",
   "area": "montjuic",
   "themes": [
-    "history",
-    "views"
+    "history"
   ],
+  "cost": "freeSlots",
+  "time": "1–1.5 h",
   "coords": [
     41.3637,
     2.1665

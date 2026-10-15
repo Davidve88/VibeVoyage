@@ -4,7 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import PlaceList, { type PlaceData } from '../../components/PlaceList';
 import TextSize from '../../components/TextSize';
 import Welcome from '../../components/Welcome';
-import { LANGS, type Lang } from '../../data/taxonomy';
+import { COSTS, LANGS, type Lang } from '../../data/taxonomy';
 import { ui, langNames } from '../../i18n/ui';
 
 export function getStaticPaths() {
@@ -26,13 +26,15 @@ const places: PlaceData[] = entries
     tip: e.data.tip?.[lang],
     how: e.data.how?.[lang],
     links: e.data.links.map((l) => ({ type: l.type, url: l.url, label: l.label?.[lang] })),
+    cost: COSTS[e.data.cost][lang],
+    time: e.data.time,
     query: `${e.data.name} Barcelona`,
   }))
   .sort((a, b) => a.name.localeCompare(b.name, lang));
 
 const listStrings = {
   area: t.area, theme: t.theme, clear: t.clear, one: t.one, many: t.many, none: t.none,
-  map: t.map, tix: t.tix, web: t.web, how: t.how, photoBy: t.photoBy,
+  map: t.map, tix: t.tix, web: t.web, how: t.how, time: t.time, photoBy: t.photoBy,
 };
 ---
 

@@ -2,9 +2,10 @@
   "name": "Sagrada Família",
   "area": "eixample",
   "themes": [
-    "gaudi",
-    "views"
+    "gaudi"
   ],
+  "cost": "paid",
+  "time": "1.5–2.5 h",
   "coords": [
     41.4036,
     2.1744

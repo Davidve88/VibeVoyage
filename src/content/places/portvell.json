@@ -2,8 +2,10 @@
   "name": "Port Vell",
   "area": "seafront",
   "themes": [
-    "nature"
+    "parks"
   ],
+  "cost": "free",
+  "time": "30–60 min",
   "coords": [
     41.375,
     2.1837

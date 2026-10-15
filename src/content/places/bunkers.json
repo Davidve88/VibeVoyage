@@ -2,9 +2,10 @@
   "name": "Búnkers del Carmel",
   "area": "gracia",
   "themes": [
-    "views",
-    "history"
+    "parks"
   ],
+  "cost": "free",
+  "time": "45–90 min",
   "coords": [
     41.4185,
     2.1617
