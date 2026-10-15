@@ -1,0 +1,17 @@
+{
+  "name": "La Rambla & La Boqueria",
+  "area": "raval",
+  "themes": [
+    "food",
+    "history"
+  ],
+  "coords": [
+    41.3818,
+    2.1735
+  ],
+  "text": {
+    "en": "Barcelona's famous pedestrian boulevard and its lively central market. Best early in the day; La Boqueria is ideal for a casual vegetarian snack or fruit juice.",
+    "de": "Barcelonas berühmte Flaniermeile und ihr lebhafter Zentralmarkt. Am besten früh am Tag; La Boqueria eignet sich ideal für einen vegetarischen Snack oder frischen Fruchtsaft.",
+    "es": "El famoso bulevar peatonal de Barcelona y su animado mercado central. Mejor a primera hora; La Boqueria es ideal para un tentempié vegetariano o un zumo de fruta."
+  }
+}

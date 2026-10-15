@@ -1,0 +1,24 @@
+{
+  "name": "Park Güell",
+  "area": "gracia",
+  "themes": [
+    "gaudi",
+    "nature",
+    "views"
+  ],
+  "coords": [
+    41.4145,
+    2.1527
+  ],
+  "text": {
+    "en": "A hillside park designed by Gaudí, with mosaic terraces, whimsical pavilions, colonnades and broad views over Barcelona.",
+    "de": "Ein Hangpark von Gaudí mit Mosaikterrassen, verspielten Pavillons, Säulengängen und weiten Ausblicken über Barcelona.",
+    "es": "Un parque en la ladera diseñado por Gaudí, con terrazas de mosaico, pabellones fantasiosos, columnatas y amplias vistas de Barcelona."
+  },
+  "links": [
+    {
+      "type": "tix",
+      "url": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times"
+    }
+  ]
+}

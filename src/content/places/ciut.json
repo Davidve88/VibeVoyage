@@ -1,0 +1,16 @@
+{
+  "name": "Parc de la Ciutadella",
+  "area": "gothic",
+  "themes": [
+    "nature"
+  ],
+  "coords": [
+    41.3881,
+    2.187
+  ],
+  "text": {
+    "en": "A large central park with fountains, shaded walks, the Catalan Parliament and the nearby Arc de Triomf. A good low-effort break between museums.",
+    "de": "Ein großer Park im Zentrum mit Brunnen, schattigen Wegen, dem katalanischen Parlament und dem nahen Arc de Triomf. Eine gute, entspannte Pause zwischen Museen.",
+    "es": "Un gran parque céntrico con fuentes, paseos sombreados, el Parlamento de Cataluña y el cercano Arco de Triunfo. Una buena pausa tranquila entre museos."
+  }
+}

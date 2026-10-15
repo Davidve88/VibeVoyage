@@ -1,0 +1,22 @@
+{
+  "name": "Barcelona Cathedral",
+  "area": "gothic",
+  "themes": [
+    "history"
+  ],
+  "coords": [
+    41.384,
+    2.1762
+  ],
+  "text": {
+    "en": "The Gothic cathedral at the heart of the old city, with a cloister, chapels and a long history built on Roman and Romanesque foundations.",
+    "de": "Die gotische Kathedrale im Herzen der Altstadt, mit Kreuzgang, Kapellen und einer langen Geschichte auf römischen und romanischen Fundamenten.",
+    "es": "La catedral gótica en el corazón del casco antiguo, con claustro, capillas y una larga historia levantada sobre cimientos romanos y románicos."
+  },
+  "links": [
+    {
+      "type": "map",
+      "url": "https://maps.app.goo.gl/CbV14yU54W1mAp4S8"
+    }
+  ]
+}

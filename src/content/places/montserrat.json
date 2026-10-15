@@ -1,0 +1,29 @@
+{
+  "name": "Montserrat",
+  "area": "daytrips",
+  "themes": [
+    "nature",
+    "history",
+    "views"
+  ],
+  "coords": [
+    41.5933,
+    1.8376
+  ],
+  "text": {
+    "en": "A dramatic saw-toothed mountain and Benedictine monastery, important for Catalan identity and pilgrimage. Visit the basilica, walk short viewpoint trails, and take the cable car or rack railway up from the valley.",
+    "de": "Ein dramatischer, gezackter Berg mit Benediktinerkloster, wichtig für die katalanische Identität und als Pilgerziel. Besuche die Basilika, gehe kurze Aussichtswege und fahre mit Seilbahn oder Zahnradbahn hinauf.",
+    "es": "Una montaña dentada y espectacular con un monasterio benedictino, importante para la identidad catalana y la peregrinación. Visita la basílica, haz senderos cortos hasta miradores y sube en teleférico o cremallera desde el valle."
+  },
+  "how": {
+    "en": "Take the R5 commuter train (towards Manresa) from Plaça d'Espanya station, every 30 minutes from about 8:30. Get there by metro line 1 (red) or 3 (green), stop Espanya. After about 1 hour, get off at Aeri de Montserrat and take the cable car (every 15 minutes, 5 minutes up). Arrive with time to spare and follow the R5 signs.",
+    "de": "Nimm die Regionalbahn R5 (Richtung Manresa) ab Bahnhof Plaça d'Espanya, alle 30 Minuten ab ca. 8:30 Uhr. Dorthin mit der Metro Linie 1 (rot) oder 3 (grün), Haltestelle Espanya. Nach etwa 1 Stunde bei „Aeri de Montserrat“ aussteigen und die Seilbahn nehmen (alle 15 Minuten, 5 Minuten Fahrt). Plane Zeit ein und folge den Schildern zur R5.",
+    "es": "Toma el tren de cercanías R5 (dirección Manresa) en la estación de Plaça d'Espanya, cada 30 minutos desde las 8:30 aproximadamente. Llega en metro con la línea 1 (roja) o 3 (verde), parada Espanya. Tras aproximadamente 1 hora, baja en Aeri de Montserrat y toma el teleférico (cada 15 minutos, 5 minutos de subida). Llega con tiempo y sigue las señales de la R5."
+  },
+  "links": [
+    {
+      "type": "tix",
+      "url": "https://tickets.montserratvisita.com/es"
+    }
+  ]
+}

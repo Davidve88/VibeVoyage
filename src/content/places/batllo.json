@@ -1,0 +1,27 @@
+{
+  "name": "Casa Batlló",
+  "area": "eixample",
+  "themes": [
+    "gaudi"
+  ],
+  "coords": [
+    41.3917,
+    2.1649
+  ],
+  "text": {
+    "en": "A theatrical Gaudí apartment building on Passeig de Gràcia, known for its bone-like balconies, dragon-scale roof and immersive interior visit.",
+    "de": "Ein theatralisches Gaudí-Wohnhaus am Passeig de Gràcia, bekannt für seine knochenartigen Balkone, das Drachenschuppen-Dach und den eindrucksvollen Rundgang im Inneren.",
+    "es": "Un teatral edificio de viviendas de Gaudí en el Paseo de Gracia, conocido por sus balcones en forma de hueso, su tejado de escamas de dragón y su envolvente visita interior."
+  },
+  "tip": {
+    "en": "Choose one Gaudí house to visit inside and admire the other from the street.",
+    "de": "Besuche eines der Gaudí-Häuser von innen und bewundere das andere von der Straße aus.",
+    "es": "Elige una casa de Gaudí para visitar por dentro y admira la otra desde la calle."
+  },
+  "links": [
+    {
+      "type": "map",
+      "url": "https://maps.app.goo.gl/ZLDfh2t3kNfmRAe26"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Plaça del Rei",
+  "area": "gothic",
+  "themes": [
+    "history",
+    "art"
+  ],
+  "coords": [
+    41.3846,
+    2.1769
+  ],
+  "text": {
+    "en": "A beautifully preserved medieval royal square beside the cathedral, home to the City History Museum with Roman ruins beneath it.",
+    "de": "Ein wunderbar erhaltener mittelalterlicher Königsplatz neben der Kathedrale, mit dem Stadtgeschichtsmuseum und römischen Ruinen darunter.",
+    "es": "Una plaza real medieval magníficamente conservada junto a la catedral, sede del Museo de Historia de la Ciudad con ruinas romanas debajo."
+  },
+  "links": [
+    {
+      "type": "map",
+      "url": "https://maps.app.goo.gl/K4k6FCaokSXsmBBc8"
+    }
+  ]
+}

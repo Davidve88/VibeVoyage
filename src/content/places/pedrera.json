@@ -1,0 +1,27 @@
+{
+  "name": "Casa Milà / La Pedrera",
+  "area": "eixample",
+  "themes": [
+    "gaudi"
+  ],
+  "coords": [
+    41.3953,
+    2.162
+  ],
+  "text": {
+    "en": "Gaudí's undulating stone apartment building, with a rooftop of surreal chimneys and an attic that explains his structural ideas.",
+    "de": "Gaudís wellenförmiges Wohnhaus aus Stein, mit einem Dach voller surrealer Schornsteine und einem Dachboden, der seine Bauideen erklärt.",
+    "es": "El ondulante edificio de piedra de Gaudí, con una azotea de chimeneas surrealistas y un desván que explica sus ideas estructurales."
+  },
+  "tip": {
+    "en": "Choose one Gaudí house to visit inside and admire the other from the street.",
+    "de": "Besuche eines der Gaudí-Häuser von innen und bewundere das andere von der Straße aus.",
+    "es": "Elige una casa de Gaudí para visitar por dentro y admira la otra desde la calle."
+  },
+  "links": [
+    {
+      "type": "tix",
+      "url": "https://www.lapedrera.com/en/tickets/"
+    }
+  ]
+}

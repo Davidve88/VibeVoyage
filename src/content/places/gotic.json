@@ -1,0 +1,16 @@
+{
+  "name": "Barri Gòtic",
+  "area": "gothic",
+  "themes": [
+    "history"
+  ],
+  "coords": [
+    41.3833,
+    2.1767
+  ],
+  "text": {
+    "en": "The medieval heart of Barcelona: narrow lanes, hidden squares, Roman remains, cafés and historic buildings.",
+    "de": "Das mittelalterliche Herz Barcelonas: enge Gassen, versteckte Plätze, römische Überreste, Cafés und historische Gebäude.",
+    "es": "El corazón medieval de Barcelona: callejuelas estrechas, plazas escondidas, restos romanos, cafés y edificios históricos."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Port Vell",
+  "area": "seafront",
+  "themes": [
+    "nature"
+  ],
+  "coords": [
+    41.375,
+    2.1837
+  ],
+  "text": {
+    "en": "The old port, a pleasant waterfront stroll on the way to Barceloneta.",
+    "de": "Der alte Hafen, ein angenehmer Spaziergang am Wasser auf dem Weg nach Barceloneta.",
+    "es": "El puerto viejo, un agradable paseo junto al agua camino de la Barceloneta."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Santa Maria del Mar",
+  "area": "gothic",
+  "themes": [
+    "history"
+  ],
+  "coords": [
+    41.3835,
+    2.1823
+  ],
+  "text": {
+    "en": "An elegant 14th-century Catalan Gothic church in El Born, built with support from sailors, merchants and dockworkers. Its bright interior feels more intimate than the cathedral.",
+    "de": "Eine elegante katalanisch-gotische Kirche aus dem 14. Jahrhundert im Viertel El Born, von Seeleuten, Händlern und Hafenarbeitern erbaut. Das helle Innere wirkt vertrauter als die Kathedrale.",
+    "es": "Una elegante iglesia gótica catalana del siglo XIV en El Born, construida con el apoyo de marineros, comerciantes y estibadores. Su interior luminoso resulta más íntimo que el de la catedral."
+  },
+  "links": [
+    {
+      "type": "map",
+      "url": "https://maps.app.goo.gl/RjTFqqj4ghWB4Z5t9"
+    }
+  ]
+}

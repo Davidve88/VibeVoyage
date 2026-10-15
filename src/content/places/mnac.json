@@ -1,0 +1,28 @@
+{
+  "name": "MNAC – National Art Museum of Catalonia",
+  "area": "montjuic",
+  "themes": [
+    "art",
+    "views"
+  ],
+  "coords": [
+    41.3685,
+    2.1534
+  ],
+  "text": {
+    "en": "Catalonia's national art museum in the Palau Nacional, especially strong in Romanesque frescoes, Gothic art and Modernisme. Its terrace has one of the city's best views.",
+    "de": "Das Nationalmuseum Kataloniens im Palau Nacional, besonders stark bei romanischen Fresken, gotischer Kunst und Modernisme. Die Terrasse bietet einen der schönsten Ausblicke der Stadt.",
+    "es": "El museo nacional de Cataluña en el Palau Nacional, especialmente rico en frescos románicos, arte gótico y modernismo. Su terraza ofrece una de las mejores vistas de la ciudad."
+  },
+  "tip": {
+    "en": "Montjuïc works best as its own half or full day: the museum, the castle and Poble Espanyol are all on the hill.",
+    "de": "Montjuïc eignet sich am besten als eigener halber oder ganzer Tag: Museum, Burg und Poble Espanyol liegen alle auf dem Hügel.",
+    "es": "Montjuïc funciona mejor como medio día o día completo: el museo, el castillo y el Poble Espanyol están en la misma colina."
+  },
+  "links": [
+    {
+      "type": "tix",
+      "url": "https://www.tiqets.com/en/museu-nacional-dart-de-catalunya-tickets-l146144/"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Sagrada Família",
+  "area": "eixample",
+  "themes": [
+    "gaudi",
+    "views"
+  ],
+  "coords": [
+    41.4036,
+    2.1744
+  ],
+  "text": {
+    "en": "Gaudí's extraordinary, still-unfinished basilica: a forest-like interior, coloured stained glass, sculpted façades and a museum about its construction. Book a timed ticket; tower access is optional.",
+    "de": "Gaudís außergewöhnliche, noch unvollendete Basilika: ein waldartiges Inneres, farbige Glasfenster, skulptierte Fassaden und ein Museum zum Bau. Zeitfenster-Ticket buchen; der Turm ist optional.",
+    "es": "La extraordinaria basílica inacabada de Gaudí: un interior como un bosque, vidrieras de colores, fachadas esculpidas y un museo sobre su construcción. Reserva una entrada con hora; subir a las torres es opcional."
+  },
+  "tip": {
+    "en": "Go in the morning, then have lunch in Gràcia and see Park Güell in the afternoon.",
+    "de": "Am besten morgens besuchen, dann in Gràcia zu Mittag essen und nachmittags den Park Güell sehen.",
+    "es": "Ve por la mañana, come en Gràcia y visita el Park Güell por la tarde."
+  },
+  "links": [
+    {
+      "type": "tix",
+      "url": "https://sagradafamilia.org/en/tickets-individuals"
+    },
+    {
+      "type": "web",
+      "url": "https://sagradafamilia.org/en/worship-at-the-basilica",
+      "label": {
+        "en": "Sunday Mass",
+        "de": "Sonntagsmesse",
+        "es": "Misa del domingo"
+      }
+    }
+  ]
+}

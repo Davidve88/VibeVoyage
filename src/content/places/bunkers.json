@@ -1,0 +1,22 @@
+{
+  "name": "Búnkers del Carmel",
+  "area": "gracia",
+  "themes": [
+    "views",
+    "history"
+  ],
+  "coords": [
+    41.4185,
+    2.1617
+  ],
+  "text": {
+    "en": "Former Civil War anti-aircraft batteries, now a free 360° viewpoint over the city, the sea, Montjuïc and Collserola. Go earlier in the day for comfort and clearer views.",
+    "de": "Ehemalige Flugabwehrstellungen aus dem Bürgerkrieg, heute ein kostenloser 360°-Aussichtspunkt über Stadt, Meer, Montjuïc und Collserola. Besser früher am Tag: angenehmer und klarere Sicht.",
+    "es": "Antiguas baterías antiaéreas de la Guerra Civil, hoy un mirador gratuito de 360° sobre la ciudad, el mar, Montjuïc y Collserola. Ve temprano por comodidad y para tener mejor visibilidad."
+  },
+  "tip": {
+    "en": "The way up is uphill. Leave enough time and wear comfortable shoes.",
+    "de": "Der Weg hinauf ist steil. Plane genug Zeit ein und trage bequeme Schuhe.",
+    "es": "La subida es cuesta arriba. Deja tiempo suficiente y lleva calzado cómodo."
+  }
+}

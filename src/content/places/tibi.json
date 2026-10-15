@@ -1,0 +1,37 @@
+{
+  "name": "Tibidabo",
+  "area": "daytrips",
+  "themes": [
+    "views",
+    "nature"
+  ],
+  "coords": [
+    41.4225,
+    2.119
+  ],
+  "text": {
+    "en": "Barcelona's highest hill, crowned by the Temple Expiatori del Sagrat Cor, with wide views over city and sea. The historic amusement park is nearby.",
+    "de": "Barcelonas höchster Hügel, gekrönt von der Kirche Sagrat Cor, mit weitem Blick über Stadt und Meer. Der historische Vergnügungspark liegt in der Nähe.",
+    "es": "La colina más alta de Barcelona, coronada por el Templo Expiatorio del Sagrado Corazón, con amplias vistas de la ciudad y el mar. El histórico parque de atracciones está cerca."
+  },
+  "tip": {
+    "en": "Less essential than Montserrat for first-time cultural visitors; a nice extra if you have time.",
+    "de": "Für Erstbesucher mit Kulturinteresse weniger wichtig als Montserrat; ein schönes Extra, wenn du Zeit hast.",
+    "es": "Menos imprescindible que Montserrat para quien visita por primera vez; un buen extra si tienes tiempo."
+  },
+  "links": [
+    {
+      "type": "map",
+      "url": "https://maps.app.goo.gl/GMffc4WStwovFCyBA"
+    },
+    {
+      "type": "web",
+      "url": "https://tibidabo.cat/en/plan-the-visit/how-to-get-here",
+      "label": {
+        "en": "Getting there",
+        "de": "Anreise",
+        "es": "Cómo llegar"
+      }
+    }
+  ]
+}

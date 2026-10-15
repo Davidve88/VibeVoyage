@@ -1,0 +1,22 @@
+{
+  "name": "Picasso Museum",
+  "area": "gothic",
+  "themes": [
+    "art"
+  ],
+  "coords": [
+    41.3852,
+    2.1809
+  ],
+  "text": {
+    "en": "A major museum in five adjoining medieval palaces, tracing Picasso's early years and his deep connection with Barcelona.",
+    "de": "Ein bedeutendes Museum in fünf aneinandergrenzenden mittelalterlichen Palästen; es zeigt Picassos frühe Jahre und seine enge Verbindung zu Barcelona.",
+    "es": "Un gran museo en cinco palacios medievales contiguos, que recorre los primeros años de Picasso y su estrecha relación con Barcelona."
+  },
+  "links": [
+    {
+      "type": "web",
+      "url": "https://museupicassobcn.cat/en/node/6010"
+    }
+  ]
+}

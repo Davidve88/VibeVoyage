@@ -1,0 +1,23 @@
+{
+  "name": "Montjuïc Castle",
+  "area": "montjuic",
+  "themes": [
+    "history",
+    "views"
+  ],
+  "coords": [
+    41.3637,
+    2.1665
+  ],
+  "text": {
+    "en": "A hilltop fortress with military and political-history exhibitions and sweeping views of the port, sea and city.",
+    "de": "Eine Festung auf dem Hügel mit Ausstellungen zur Militär- und Politikgeschichte und weitem Blick auf Hafen, Meer und Stadt.",
+    "es": "Una fortaleza en lo alto de la colina con exposiciones de historia militar y política y vistas amplias del puerto, el mar y la ciudad."
+  },
+  "links": [
+    {
+      "type": "web",
+      "url": "https://ajuntament.barcelona.cat/castelldemontjuic/en"
+    }
+  ]
+}
