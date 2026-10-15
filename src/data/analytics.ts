@@ -3,5 +3,5 @@
 // provider "umami":      id = Website ID from Umami (cloud.umami.is).
 export const analytics: { provider: 'cloudflare' | 'umami'; id: string } = {
   provider: 'cloudflare',
-  id: '',
+  id: '03746056a3984c169275494c3445afbd',
 };
