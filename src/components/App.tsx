@@ -4,13 +4,13 @@ import { setKnownIds, useList } from '../lib/list-store';
 import MyList from './MyList';
 import PlaceCards, { type PlaceData, type Strings } from './PlaceList';
 
-type View = 'places' | 'list';
+type View = 'places' | 'map' | 'list';
 
 interface Props { lang: Lang; places: PlaceData[]; t: Strings }
 
 function viewFromHash(): View {
   const h = typeof location === 'undefined' ? '' : location.hash.replace('#', '');
-  return h === 'list' ? 'list' : 'places';
+  return h === 'list' ? 'list' : h === 'map' ? 'map' : 'places';
 }
 
 export default function App({ lang, places, t }: Props) {
@@ -18,6 +18,11 @@ export default function App({ lang, places, t }: Props) {
   const list = useList();
   const [view, setViewState] = useState<View>('places');
   const [theme, setTheme] = useState<string | null>(null);
+  // Leaflet (and its CSS) load only when the map is first opened.
+  const [MapComp, setMapComp] = useState<any>(null);
+  useEffect(() => {
+    if (view === 'map' && !MapComp) import('./MapView').then((m) => setMapComp(() => m.default));
+  }, [view, MapComp]);
 
   useEffect(() => {
     setViewState(viewFromHash());
@@ -50,6 +55,7 @@ export default function App({ lang, places, t }: Props) {
 
   const views: [View, string][] = [
     ['places', t.viewPlaces],
+    ['map', t.viewMap],
     ['list', `${t.viewList}${list.saved.length ? ` (${list.saved.length})` : ''}`],
   ];
 
@@ -63,7 +69,7 @@ export default function App({ lang, places, t }: Props) {
         ))}
       </div>
 
-      {view === 'places' && (
+      {view !== 'list' && (
         <>
           <div class="filters">
             <div class="fgroup">
@@ -79,7 +85,8 @@ export default function App({ lang, places, t }: Props) {
             {theme && <button type="button" class="linkbtn" onClick={() => setTheme(null)}>{t.clear}</button>}
           </div>
           <p class="count" aria-live="polite">{shown.length} {shown.length === 1 ? t.one : t.many}</p>
-          <PlaceCards places={shown} lang={lang} t={t} list={list} goTo={goTo} />
+          {view === 'places' && <PlaceCards places={shown} lang={lang} t={t} list={list} goTo={goTo} />}
+          {view === 'map' && MapComp && <MapComp places={shown} t={t} list={list} goTo={goTo} />}
         </>
       )}
 

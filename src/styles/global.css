@@ -65,3 +65,15 @@ footer{color:var(--mute);font-size:.85rem;margin:28px 0 8px}
 .check{display:inline-flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;font-weight:bold}
 .check input{width:24px;height:24px;accent-color:var(--acc)}
 .empty{background:var(--card);border:2px dashed var(--line);border-radius:14px;padding:18px;margin:14px 0}
+.map{height:60vh;min-height:360px;border:2px solid var(--line);border-radius:14px;margin:8px 0;z-index:0}
+.pin{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.5);font-weight:bold;font-size:16px;line-height:1;color:#fff}
+.pin-wrap{background:none;border:0}
+.pin-none{background:#4f5f6b}
+.pin-saved{background:#0e6a87}
+.pin-visited{background:#2b7a4b}
+.legend{list-style:none;display:flex;flex-wrap:wrap;gap:6px 18px;margin:8px 0;padding:0;color:var(--mute);font-size:.9rem}
+.legend li{display:flex;align-items:center;gap:8px}
+.pop{display:flex;flex-direction:column;gap:6px;min-width:190px;color:#1f2a33;font-family:inherit}
+.pop .btn{padding:10px 12px}
+.pop .linkbtn{text-align:left;padding:6px 0}
+.leaflet-container{font:inherit}
