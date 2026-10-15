@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 
-interface Props { h: string; b: string; noemiH: string; noemiB: string; sig: string; ok: string }
+interface Props { h: string; b: string; noemiH: string; noemiB: string; sig: string; ok: string; close: string }
 
 export default function Welcome(p: Props) {
   const [state, setState] = useState<'hidden' | 'generic' | 'noemi'>('hidden');
@@ -17,6 +17,7 @@ export default function Welcome(p: Props) {
   };
   return (
     <section class="wel">
+      <button type="button" class="x" aria-label={p.close} onClick={close}>×</button>
       <h2>{state === 'noemi' ? p.noemiH : p.h}</h2>
       <p>{state === 'noemi' ? p.noemiB : p.b}</p>
       <p class="sig">{p.sig}</p>
