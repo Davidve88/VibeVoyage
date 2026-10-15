@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { getImage } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import PlaceList, { type PlaceData } from '../../components/PlaceList';
 import TextSize from '../../components/TextSize';
@@ -16,8 +17,13 @@ const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const entries = await getCollection('places');
-const places: PlaceData[] = entries
-  .map((e) => ({
+const imgs = import.meta.glob<{ default: ImageMetadata }>('../../assets/places/*.jpg', { eager: true });
+const photoFor = async (file: string) => {
+  const m = imgs[`../../assets/places/${file}`];
+  return m ? (await getImage({ src: m.default, width: 800, format: 'webp' })).src : undefined;
+};
+const places: PlaceData[] = (await Promise.all(entries
+  .map(async (e) => ({
     id: e.id,
     name: e.data.name,
     area: e.data.area,
@@ -29,7 +35,10 @@ const places: PlaceData[] = entries
     cost: COSTS[e.data.cost][lang],
     time: e.data.time,
     query: `${e.data.name} Barcelona`,
-  }))
+    photo: e.data.photo
+      ? { src: (await photoFor(e.data.photo.file))!, author: e.data.photo.author, license: e.data.photo.license, sourceUrl: e.data.photo.sourceUrl }
+      : undefined,
+  }))))
   .sort((a, b) => a.name.localeCompare(b.name, lang));
 
 const listStrings = {

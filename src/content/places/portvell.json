@@ -14,5 +14,11 @@
     "en": "The old port, a pleasant waterfront stroll on the way to Barceloneta.",
     "de": "Der alte Hafen, ein angenehmer Spaziergang am Wasser auf dem Weg nach Barceloneta.",
     "es": "El puerto viejo, un agradable paseo junto al agua camino de la Barceloneta."
+  },
+  "photo": {
+    "file": "portvell.jpg",
+    "author": "Felix König",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geb%C3%A4ude_Port_Vell_Barcelona_2013.JPG"
   }
 }

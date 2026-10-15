@@ -20,5 +20,11 @@
       "type": "tix",
       "url": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times"
     }
-  ]
+  ],
+  "photo": {
+    "file": "guell.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg"
+  }
 }

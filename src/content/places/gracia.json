@@ -14,5 +14,11 @@
     "en": "A former independent village with a local feel: leafy squares, independent shops and cafés. A good place for a relaxed lunch or afternoon. It sits below Park Güell.",
     "de": "Ein ehemals eigenständiges Dorf mit lokalem Flair: grüne Plätze, kleine Läden und Cafés. Ideal für ein entspanntes Mittagessen. Es liegt unterhalb des Park Güell.",
     "es": "Un antiguo pueblo independiente con aire local: plazas arboladas, tiendas independientes y cafés. Un buen lugar para una comida o una tarde tranquila. Está justo debajo del Park Güell."
+  },
+  "photo": {
+    "file": "gracia.jpg",
+    "author": "Mattsjc",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Plaza_del_Sol_in_Barcelona.jpg"
   }
 }

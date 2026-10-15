@@ -20,5 +20,11 @@
       "type": "web",
       "url": "https://museupicassobcn.cat/en/node/6010"
     }
-  ]
+  ],
+  "photo": {
+    "file": "picasso.jpg",
+    "author": "haitham alfalah",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu-Picasso_Barcelona.jpg"
+  }
 }

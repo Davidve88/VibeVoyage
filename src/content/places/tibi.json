@@ -34,5 +34,11 @@
         "es": "Cómo llegar"
       }
     }
-  ]
+  ],
+  "photo": {
+    "file": "tibi.jpg",
+    "author": "Lluís Ferrer",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibidabo,_Barcelona_(51865256587).jpg"
+  }
 }

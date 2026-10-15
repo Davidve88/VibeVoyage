@@ -14,5 +14,11 @@
     "en": "An open-air architectural village built for the 1929 International Exhibition, recreating streets, squares and buildings from across Spain. It also has craft workshops, shops and cafés.",
     "de": "Ein Freilicht-Architekturdorf für die Weltausstellung 1929, das Straßen, Plätze und Gebäude aus ganz Spanien nachbildet. Mit Kunsthandwerk, Läden und Cafés.",
     "es": "Un pueblo arquitectónico al aire libre creado para la Exposición Internacional de 1929, que recrea calles, plazas y edificios de toda España. Con talleres de artesanía, tiendas y cafés."
+  },
+  "photo": {
+    "file": "poble.jpg",
+    "author": "Amadalvarez",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PobleEspanyol-BCN-4864.jpg"
   }
 }

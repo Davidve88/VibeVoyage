@@ -34,5 +34,11 @@
         "es": "Misa del domingo"
       }
     }
-  ]
+  ],
+  "photo": {
+    "file": "sagrada.jpg",
+    "author": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nativity_towers,_Sagrada_Familia,_Barcelona_08.jpg"
+  }
 }

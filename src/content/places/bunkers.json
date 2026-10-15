@@ -19,5 +19,11 @@
     "en": "The way up is uphill. Leave enough time and wear comfortable shoes.",
     "de": "Der Weg hinauf ist steil. Plane genug Zeit ein und trage bequeme Schuhe.",
     "es": "La subida es cuesta arriba. Deja tiempo suficiente y lleva calzado cómodo."
+  },
+  "photo": {
+    "file": "bunkers.jpg",
+    "author": "Barcelonatips",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bunkers_del_Carmel_Barcelona.jpg"
   }
 }

@@ -14,5 +14,11 @@
     "en": "Barcelona's historic seaside neighbourhood and beach, with a promenade, port views and a relaxed atmosphere.",
     "de": "Barcelonas historisches Meeresviertel mit Strand, Promenade, Hafenblick und entspannter Atmosphäre.",
     "es": "El histórico barrio marinero de Barcelona y su playa, con paseo marítimo, vistas al puerto y un ambiente relajado."
+  },
+  "photo": {
+    "file": "barceloneta.jpg",
+    "author": "DimiTalen",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Promenade_and_beach,_Platja_de_la_Barceloneta,_Barcelona,_2015.jpg"
   }
 }

@@ -25,5 +25,11 @@
       "type": "tix",
       "url": "https://tickets.montserratvisita.com/es"
     }
-  ]
+  ],
+  "photo": {
+    "file": "montserrat.jpg",
+    "author": "ABruszik",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montserrat_Spain_22_The_Monastery_of_Santa_Maria.jpg"
+  }
 }

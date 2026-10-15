@@ -14,5 +14,11 @@
     "en": "A dazzling Catalan Modernist concert hall by Lluís Domènech i Montaner, full of stained glass, mosaics and sculpture. Visit on a guided tour or attend a concert.",
     "de": "Ein glanzvoller katalanischer Jugendstil-Konzertsaal von Lluís Domènech i Montaner, voller Glasmalerei, Mosaiken und Skulpturen. Besuch per Führung oder bei einem Konzert.",
     "es": "Una deslumbrante sala de conciertos modernista catalana de Lluís Domènech i Montaner, repleta de vidrieras, mosaicos y esculturas. Se visita con una visita guiada o asistiendo a un concierto."
+  },
+  "photo": {
+    "file": "palau.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_Musica_May_2026-4.jpg"
   }
 }

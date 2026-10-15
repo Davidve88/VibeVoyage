@@ -25,5 +25,11 @@
       "type": "tix",
       "url": "https://www.lapedrera.com/en/tickets/"
     }
-  ]
+  ],
+  "photo": {
+    "file": "pedrera.jpg",
+    "author": "Thomas Ledl",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Mil%C3%A0,_general_view.jpg"
+  }
 }

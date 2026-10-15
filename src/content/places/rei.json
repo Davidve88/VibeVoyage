@@ -20,5 +20,11 @@
       "type": "map",
       "url": "https://maps.app.goo.gl/K4k6FCaokSXsmBBc8"
     }
-  ]
+  ],
+  "photo": {
+    "file": "rei.jpg",
+    "author": "Alex Gompons",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pla%C3%A7a_del_Rei_Barcelona_42.jpg"
+  }
 }

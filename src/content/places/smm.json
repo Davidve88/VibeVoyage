@@ -20,5 +20,11 @@
       "type": "map",
       "url": "https://maps.app.goo.gl/RjTFqqj4ghWB4Z5t9"
     }
-  ]
+  ],
+  "photo": {
+    "file": "smm.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Mar_Barcelona_September_2026-1.jpg"
+  }
 }

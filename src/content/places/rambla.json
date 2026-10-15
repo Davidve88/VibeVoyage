@@ -14,5 +14,11 @@
     "en": "Barcelona's famous pedestrian boulevard and its lively central market. Best early in the day; La Boqueria is ideal for a casual vegetarian snack or fruit juice.",
     "de": "Barcelonas berühmte Flaniermeile und ihr lebhafter Zentralmarkt. Am besten früh am Tag; La Boqueria eignet sich ideal für einen vegetarischen Snack oder frischen Fruchtsaft.",
     "es": "El famoso bulevar peatonal de Barcelona y su animado mercado central. Mejor a primera hora; La Boqueria es ideal para un tentempié vegetariano o un zumo de fruta."
+  },
+  "photo": {
+    "file": "rambla.jpg",
+    "author": "Stefano Vigorelli",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:En_la_Rambla,_Barcelona_SP.jpg"
   }
 }

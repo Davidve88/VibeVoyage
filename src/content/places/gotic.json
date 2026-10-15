@@ -14,5 +14,11 @@
     "en": "The medieval heart of Barcelona: narrow lanes, hidden squares, Roman remains, cafés and historic buildings.",
     "de": "Das mittelalterliche Herz Barcelonas: enge Gassen, versteckte Plätze, römische Überreste, Cafés und historische Gebäude.",
     "es": "El corazón medieval de Barcelona: callejuelas estrechas, plazas escondidas, restos romanos, cafés y edificios históricos."
+  },
+  "photo": {
+    "file": "gotic.jpg",
+    "author": "Pierre Phaneuf from Montréal, Canada",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barri_G%C3%B2tic_at_night.jpg"
   }
 }

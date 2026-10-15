@@ -25,5 +25,11 @@
       "type": "tix",
       "url": "https://www.tiqets.com/en/museu-nacional-dart-de-catalunya-tickets-l146144/"
     }
-  ]
+  ],
+  "photo": {
+    "file": "mnac.jpg",
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Palau_Nacional_-_National_Museum_of_Art_of_Catalunya.jpg"
+  }
 }
