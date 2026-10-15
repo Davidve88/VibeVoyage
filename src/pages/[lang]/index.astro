@@ -70,4 +70,12 @@ const places: PlaceData[] = (await Promise.all(entries
   <Welcome client:load h={t.welcomeH} b={t.welcomeB} noemiH={t.noemiH} noemiB={t.noemiB} sig={t.sig} ok={t.gotIt} close={t.close} />
   <App client:load lang={lang} places={places} t={t} />
   <footer>{t.footer}</footer>
+  <script is:inline>
+    // keep the current view (#map / #list) when switching language
+    document.querySelectorAll('nav.seg a').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        if (location.hash) { e.preventDefault(); location.href = a.getAttribute('href') + location.hash; }
+      });
+    });
+  </script>
 </Layout>
