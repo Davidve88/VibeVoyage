@@ -14,6 +14,10 @@ const places = defineCollection({
     cost: z.enum(Object.keys(COSTS) as [keyof typeof COSTS, ...(keyof typeof COSTS)[]]),
     time: z.string(),
     coords: z.tuple([z.number(), z.number()]),
+    // Hilltop places: walking times to/from them are stretched and marked uphill.
+    steep: z.boolean().optional(),
+    // Hand-picked nearby place ids; overrides the computed list when present.
+    near: z.array(z.string()).optional(),
     text: tri,
     tip: tri.optional(),
     how: tri.optional(),

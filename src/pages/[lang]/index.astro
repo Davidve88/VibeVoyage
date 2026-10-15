@@ -5,6 +5,7 @@ import Layout from '../../layouts/Layout.astro';
 import PlaceList, { type PlaceData } from '../../components/PlaceList';
 import TextSize from '../../components/TextSize';
 import Welcome from '../../components/Welcome';
+import { nearbyFor } from '../../lib/nearby';
 import { COSTS, LANGS, type Lang } from '../../data/taxonomy';
 import { ui, langNames } from '../../i18n/ui';
 
@@ -17,6 +18,8 @@ const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const entries = await getCollection('places');
+const spots = entries.map((e) => ({ id: e.id, coords: e.data.coords, steep: e.data.steep, near: e.data.near }));
+const nameOf = new Map(entries.map((e) => [e.id, e.data.name]));
 const imgs = import.meta.glob<{ default: ImageMetadata }>('../../assets/places/*.jpg', { eager: true });
 const photoFor = async (file: string) => {
   const m = imgs[`../../assets/places/${file}`];
@@ -32,6 +35,7 @@ const places: PlaceData[] = (await Promise.all(entries
     tip: e.data.tip?.[lang],
     how: e.data.how?.[lang],
     good: e.data.good?.[lang],
+    nearby: nearbyFor(spots.find((s) => s.id === e.id)!, spots).map((n) => ({ ...n, name: nameOf.get(n.id)! })),
     links: e.data.links.map((l) => ({ type: l.type, url: l.url, label: l.label?.[lang] })),
     cost: COSTS[e.data.cost][lang],
     time: e.data.time,
@@ -43,8 +47,8 @@ const places: PlaceData[] = (await Promise.all(entries
   .sort((a, b) => a.name.localeCompare(b.name, lang));
 
 const listStrings = {
-  area: t.area, theme: t.theme, clear: t.clear, one: t.one, many: t.many, none: t.none,
-  map: t.map, tix: t.tix, web: t.web, how: t.how, time: t.time, more: t.more, less: t.less, photoBy: t.photoBy,
+  theme: t.theme, clear: t.clear, one: t.one, many: t.many, none: t.none,
+  map: t.map, tix: t.tix, web: t.web, how: t.how, time: t.time, more: t.more, less: t.less, nearby: t.nearby, walk: t.walk, uphill: t.uphill, photoBy: t.photoBy,
 };
 ---
 

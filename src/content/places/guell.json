@@ -10,6 +10,11 @@
     41.4145,
     2.1527
   ],
+  "steep": true,
+  "near": [
+    "gracia",
+    "bunkers"
+  ],
   "text": {
     "en": "A hillside park designed by Gaudí, with mosaic terraces, whimsical pavilions, colonnades and broad views over Barcelona. It was planned around 1900 as a garden-city housing development, which never succeeded, and it opened as a public park in 1926.",
     "de": "Ein Hangpark von Gaudí mit Mosaikterrassen, verspielten Pavillons, Säulengängen und weiten Ausblicken über Barcelona. Er wurde um 1900 als Gartenstadt-Siedlung geplant, die nie erfolgreich wurde, und 1926 als öffentlicher Park eröffnet.",

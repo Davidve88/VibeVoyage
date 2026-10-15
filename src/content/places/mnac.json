@@ -10,6 +10,12 @@
     41.3685,
     2.1534
   ],
+  "steep": true,
+  "near": [
+    "fountain",
+    "poble",
+    "castle"
+  ],
   "text": {
     "en": "Catalonia's national art museum in the Palau Nacional, especially strong in Romanesque frescoes, Gothic art and Modernisme. Its terrace has one of the city's best views. The Palau Nacional was built for the 1929 International Exhibition and is home to one of the finest collections of Romanesque church murals in the world.",
     "de": "Das Nationalmuseum Kataloniens im Palau Nacional, besonders stark bei romanischen Fresken, gotischer Kunst und Modernisme. Die Terrasse bietet einen der schönsten Ausblicke der Stadt. Der Palau Nacional wurde für die Weltausstellung 1929 gebaut und beherbergt eine der schönsten Sammlungen romanischer Kirchenfresken der Welt.",
