@@ -1,0 +1,40 @@
+{
+  "name": "Magic Fountain of Montjuïc",
+  "area": "montjuic",
+  "themes": [
+    "parks"
+  ],
+  "cost": "free",
+  "time": "30–60 min",
+  "coords": [
+    41.3712,
+    2.1517
+  ],
+  "text": {
+    "en": "An evening show of water, light and music at the foot of Montjuïc, right below MNAC. It is free and needs no ticket, and it pairs well with a Montjuïc day: see MNAC or the castle earlier, have dinner nearby or in Raval, then come back for the show.",
+    "de": "Eine abendliche Show aus Wasser, Licht und Musik am Fuß des Montjuïc, direkt unterhalb des MNAC. Sie ist kostenlos und braucht kein Ticket und passt gut zu einem Montjuïc-Tag: erst MNAC oder Burg besuchen, in der Nähe oder im Raval zu Abend essen und dann zur Show zurückkommen.",
+    "es": "Un espectáculo nocturno de agua, luz y música al pie de Montjuïc, justo debajo del MNAC. Es gratuito y no requiere entrada, y encaja muy bien con un día en Montjuïc: visita el MNAC o el castillo antes, cena cerca o en el Raval y vuelve para el espectáculo."
+  },
+  "tip": {
+    "en": "It does not run every night. In autumn 2026 the schedule was Thursday to Saturday, with shows at 21:00 and 21:30. Check the official schedule shortly before you go, as times and days can change for maintenance, weather or events.",
+    "de": "Die Show läuft nicht jeden Abend. Im Herbst 2026 war sie von Donnerstag bis Samstag, mit Vorstellungen um 21:00 und 21:30 Uhr. Prüfe den offiziellen Spielplan kurz vor dem Besuch, denn Zeiten und Tage können sich wegen Wartung, Wetter oder Veranstaltungen ändern.",
+    "es": "No funciona todas las noches. En otoño de 2026 el horario era de jueves a sábado, con pases a las 21:00 y a las 21:30. Consulta el horario oficial poco antes de ir, ya que los días y las horas pueden cambiar por mantenimiento, clima o eventos."
+  },
+  "links": [
+    {
+      "type": "web",
+      "url": "https://www.barcelona.cat/en/what-to-do-in-bcn/magic-fountain/magic-fountains-show-times",
+      "label": {
+        "en": "Show times",
+        "de": "Spielzeiten",
+        "es": "Horarios"
+      }
+    }
+  ],
+  "photo": {
+    "file": "fountain.jpg",
+    "author": "PierreSelim",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columnas_de_la_font_magica_de_montjuic.JPG"
+  }
+}
