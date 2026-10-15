@@ -53,3 +53,15 @@ footer{color:var(--mute);font-size:.85rem;margin:28px 0 8px}
 .wel h2{padding-right:44px}
 .wel .x{position:absolute;top:8px;right:8px;width:44px;height:44px;padding:0;margin:0;border-radius:50%;background:transparent;color:var(--ink);border:2px solid transparent;font-size:1.8rem;line-height:1;display:flex;align-items:center;justify-content:center;cursor:pointer}
 .wel .x:hover{border-color:var(--line)}
+.views{margin:14px 0}
+.btn.save{background:var(--card);color:var(--acc)}
+.btn.save.on{background:var(--acc);color:var(--on)}
+.lh{font-size:1.2rem;margin:18px 0 8px}
+.rows{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.row{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:center}
+.row.done{border-color:var(--acc);opacity:.85}
+.rowmain{display:flex;flex-direction:column}
+.rowact{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.check{display:inline-flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;font-weight:bold}
+.check input{width:24px;height:24px;accent-color:var(--acc)}
+.empty{background:var(--card);border:2px dashed var(--line);border-radius:14px;padding:18px;margin:14px 0}

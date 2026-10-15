@@ -1,10 +1,12 @@
-import { useMemo, useState } from 'preact/hooks';
+import { useState } from 'preact/hooks';
 import { THEMES, type Lang } from '../data/taxonomy';
+import { toggleSaved, type ListState } from '../lib/list-store';
 
 export interface PlaceData {
   id: string;
   name: string;
   themes: (keyof typeof THEMES)[];
+  coords: [number, number];
   cost: string;
   time: string;
   text: string;
@@ -18,23 +20,21 @@ export interface PlaceData {
 }
 
 // Plain strings only (islands receive serialisable props).
-export interface ListStrings {
-  theme: string; clear: string; one: string; many: string; none: string;
-  map: string; tix: string; web: string; how: string; time: string;
-  more: string; less: string; nearby: string; walk: string; uphill: string; photoBy: string;
-}
+export type Strings = Record<string, string>;
 
 interface CardProps {
   p: PlaceData;
   lang: Lang;
-  t: ListStrings;
+  t: Strings;
+  list: ListState;
   goTo: (id: string) => void;
 }
 
-function Card({ p, lang, t, goTo }: CardProps) {
+function Card({ p, lang, t, list, goTo }: CardProps) {
   const [open, setOpen] = useState(false);
   const gid = `good-${p.id}`;
   const hasMore = (p.good && p.good.length > 0) || p.nearby.length > 0;
+  const saved = list.saved.includes(p.id);
   return (
     <article class="card" id={`place-${p.id}`} tabIndex={-1}>
       {p.photo && <img src={p.photo.src} alt="" loading="lazy" />}
@@ -75,6 +75,9 @@ function Card({ p, lang, t, goTo }: CardProps) {
         <p class="credit">{t.photoBy}: <a href={p.photo.sourceUrl}>{p.photo.author}</a>, {p.photo.license}</p>
       )}
       <div class="links">
+        <button type="button" class={`btn save${saved ? ' on' : ''}`} aria-pressed={saved} onClick={() => toggleSaved(p.id)}>
+          {saved ? t.inList : t.add}
+        </button>
         {p.links.some((x) => x.type === 'map') ? null : (
           <a class="btn" target="_blank" rel="noopener" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.query)}`}>{t.map}</a>
         )}
@@ -86,47 +89,20 @@ function Card({ p, lang, t, goTo }: CardProps) {
   );
 }
 
-interface Props { lang: Lang; places: PlaceData[]; t: ListStrings }
+interface Props {
+  places: PlaceData[];
+  lang: Lang;
+  t: Strings;
+  list: ListState;
+  goTo: (id: string) => void;
+}
 
-export default function PlaceList({ lang, places, t }: Props) {
-  const [theme, setTheme] = useState<string | null>(null);
-  const shown = useMemo(
-    () => places.filter((p) => !theme || p.themes.includes(theme as keyof typeof THEMES)),
-    [places, theme],
-  );
-
-  // Jump to a nearby place; if the theme filter hides it, clear the filter first.
-  const goTo = (id: string) => {
-    const target = places.find((p) => p.id === id);
-    if (target && theme && !target.themes.includes(theme as keyof typeof THEMES)) setTheme(null);
-    setTimeout(() => {
-      const el = document.getElementById(`place-${id}`);
-      el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      el?.focus({ preventScroll: true });
-    }, 50);
-  };
-
+export default function PlaceCards({ places, lang, t, list, goTo }: Props) {
   return (
     <>
-      <div class="filters">
-        <div class="fgroup">
-          <h2>{t.theme}</h2>
-          <div class="chips">
-            {Object.entries(THEMES).map(([k, v]) => (
-              <button type="button" class="chip" aria-pressed={theme === k} onClick={() => setTheme(theme === k ? null : k)}>
-                {v[lang]}
-              </button>
-            ))}
-          </div>
-        </div>
-        {theme && (
-          <button type="button" class="linkbtn" onClick={() => setTheme(null)}>{t.clear}</button>
-        )}
-      </div>
-      <p class="count" aria-live="polite">{shown.length} {shown.length === 1 ? t.one : t.many}</p>
-      {shown.length === 0 && <p>{t.none}</p>}
+      {places.length === 0 && <p>{t.none}</p>}
       <div class="grid">
-        {shown.map((p) => <Card key={p.id} p={p} lang={lang} t={t} goTo={goTo} />)}
+        {places.map((p) => <Card key={p.id} p={p} lang={lang} t={t} list={list} goTo={goTo} />)}
       </div>
     </>
   );

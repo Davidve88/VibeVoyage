@@ -2,7 +2,8 @@
 import { getCollection } from 'astro:content';
 import { getImage } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
-import PlaceList, { type PlaceData } from '../../components/PlaceList';
+import App from '../../components/App';
+import type { PlaceData } from '../../components/PlaceList';
 import TextSize from '../../components/TextSize';
 import Welcome from '../../components/Welcome';
 import { nearbyFor } from '../../lib/nearby';
@@ -31,6 +32,7 @@ const places: PlaceData[] = (await Promise.all(entries
     name: e.data.name,
     area: e.data.area,
     themes: e.data.themes,
+    coords: e.data.coords,
     text: e.data.text[lang],
     tip: e.data.tip?.[lang],
     how: e.data.how?.[lang],
@@ -46,10 +48,6 @@ const places: PlaceData[] = (await Promise.all(entries
   }))))
   .sort((a, b) => a.name.localeCompare(b.name, lang));
 
-const listStrings = {
-  theme: t.theme, clear: t.clear, one: t.one, many: t.many, none: t.none,
-  map: t.map, tix: t.tix, web: t.web, how: t.how, time: t.time, more: t.more, less: t.less, nearby: t.nearby, walk: t.walk, uphill: t.uphill, photoBy: t.photoBy,
-};
 ---
 
 <Layout lang={lang}>
@@ -70,6 +68,6 @@ const listStrings = {
     </div>
   </header>
   <Welcome client:load h={t.welcomeH} b={t.welcomeB} noemiH={t.noemiH} noemiB={t.noemiB} sig={t.sig} ok={t.gotIt} close={t.close} />
-  <PlaceList client:load lang={lang} places={places} t={listStrings} />
+  <App client:load lang={lang} places={places} t={t} />
   <footer>{t.footer}</footer>
 </Layout>
