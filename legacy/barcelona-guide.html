@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Barcelona</title>
+<style>
+:root{--bg:#f3f8fa;--card:#fff;--ink:#1f2a33;--mute:#4f5f6b;--acc:#0e6a87;--accbg:#dcf0f6;--line:#cfdfe6;--ok:#2b7a4b;--on:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#13202a;--card:#1c2d39;--ink:#eef4f7;--mute:#a9bcc7;--acc:#6cc4e0;--accbg:#1f4556;--line:#34505f;--ok:#7fd6a0;--on:#0b1a22}}
+:root[data-theme="dark"]{--bg:#13202a;--card:#1c2d39;--ink:#eef4f7;--mute:#a9bcc7;--acc:#6cc4e0;--accbg:#1f4556;--line:#34505f;--ok:#7fd6a0;--on:#0b1a22}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:19px/1.6 Arial,Helvetica,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+h1{font-size:2rem;margin:.2em 0}
+.sub{color:var(--mute);margin:0 0 12px}
+.lang button{font:inherit;font-weight:bold;padding:10px 16px;border:2px solid var(--acc);background:var(--card);color:var(--acc);cursor:pointer}
+.lang button:first-child{border-radius:12px 0 0 12px}.lang button:last-child{border-radius:0 12px 12px 0}
+.lang button.on{background:var(--acc);color:var(--on)}
+nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:14px 0}
+nav button{font:inherit;text-align:left;padding:12px;border:2px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);cursor:pointer;min-height:64px}
+nav button.on{border-color:var(--acc);background:var(--accbg)}
+nav b{display:block;color:var(--acc)}
+nav small{color:var(--mute);font-size:.8rem}
+.wel{background:var(--card);border:2px solid var(--acc);border-radius:18px;padding:18px 20px;margin:14px 0}.wel h2{margin:0 0 8px;font-size:1.5rem;color:var(--acc)}.wel p{margin:.5em 0}.wel .sig{font-weight:bold}.wel button{font:inherit;margin-top:6px;padding:10px 18px;border-radius:12px;border:2px solid var(--acc);background:var(--acc);color:var(--on);cursor:pointer}
+.intro{background:var(--accbg);border-radius:14px;padding:14px 16px;margin-bottom:14px}
+.prog{color:var(--mute);margin:0 0 10px}
+.card{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px}
+.card.done{border-color:var(--ok)}
+.card h3{margin:0 0 6px;font-size:1.3rem}
+.card p{margin:.4em 0}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+a.btn,button.seen{font:inherit;font-size:.95rem;padding:10px 14px;border-radius:12px;text-decoration:none;display:inline-block;cursor:pointer}
+a.btn{background:var(--acc);color:var(--on);border:2px solid var(--acc)}
+button.seen{background:var(--card);color:var(--ink);border:2px solid var(--line)}
+.done button.seen{background:var(--ok);color:var(--on);border-color:var(--ok)}
+.tip{border-left:5px solid var(--acc);padding:6px 12px;margin:10px 0;color:var(--mute)}
+.pager{display:flex;justify-content:space-between;gap:10px;margin:18px 0}
+.pager button{font:inherit;padding:12px 16px;border-radius:12px;border:2px solid var(--acc);background:var(--card);color:var(--acc);cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+<header><div><h1 id="t"></h1><p class="sub" id="st"></p></div>
+<div class="lang"><button id="bEN">English</button><button id="bDE">Deutsch</button></div></header>
+<div id="wel"></div><nav id="nav"></nav>
+<div id="view"></div>
+<div class="pager"><button id="prev"></button><button id="next"></button></div>
+</main>
+<script>
+var T={
+en:{wh:"Welcome to Barcelona, Noemi! ☀️",wb:"I put this little guide together just for you, with places I hope you will enjoy. There is no rush and no need to see everything: pick what feels right for each day, take your time, and stop for a coffee whenever you like.",wb2:"Tap a day below to begin.",wc:"Got it, thank you!",t:"Barcelona Guide",st:"Tap a day, then tap a place. Mark places as seen.",day:"Day",seen:"Mark as seen",isSeen:"✓ Seen",prev:"← Previous",next:"Next →",of:"seen",map:"Open map",tix:"Tickets",web:"Website",how:"How to get there"},
+de:{wh:"Willkommen in Barcelona, Noemi! ☀️",wb:"Ich habe diesen kleinen Reiseführer extra für dich zusammengestellt, mit Orten, die dir hoffentlich gefallen. Es gibt keine Eile, und du musst nicht alles sehen: Such dir für jeden Tag aus, was sich gut anfühlt, lass dir Zeit und gönn dir einen Kaffee, wann immer du magst.",wb2:"Tippe unten auf einen Tag, um zu beginnen.",wc:"Verstanden, danke!",t:"Barcelona-Reiseführer",st:"Tippe auf einen Tag, dann auf einen Ort. Markiere besuchte Orte.",day:"Tag",seen:"Als besucht markieren",isSeen:"✓ Besucht",prev:"← Zurück",next:"Weiter →",of:"besucht",map:"Karte öffnen",tix:"Tickets",web:"Webseite",how:"Anreise"}};
+var P={
+rambla:{n:"La Rambla & La Boqueria",en:"Barcelona's famous pedestrian boulevard and its lively central market. Best early in the day; La Boqueria is ideal for a casual vegetarian snack or fruit juice.",de:"Barcelonas berühmte Flaniermeile und ihr lebhafter Zentralmarkt. Am besten früh am Tag; La Boqueria eignet sich ideal für einen vegetarischen Snack oder frischen Fruchtsaft."},
+gotic:{n:"Barri Gòtic",en:"The medieval heart of Barcelona: narrow lanes, hidden squares, Roman remains, cafés and historic buildings.",de:"Das mittelalterliche Herz Barcelonas: enge Gassen, versteckte Plätze, römische Überreste, Cafés und historische Gebäude."},
+cathedral:{n:"Barcelona Cathedral",en:"The Gothic cathedral at the heart of the old city, with a cloister, chapels and a long history built on Roman and Romanesque foundations.",de:"Die gotische Kathedrale im Herzen der Altstadt, mit Kreuzgang, Kapellen und einer langen Geschichte auf römischen und romanischen Fundamenten.",l:[["map","https://maps.app.goo.gl/CbV14yU54W1mAp4S8"]]},
+rei:{n:"Plaça del Rei",en:"A beautifully preserved medieval royal square beside the cathedral, home to the City History Museum with Roman ruins beneath it.",de:"Ein wunderbar erhaltener mittelalterlicher Königsplatz neben der Kathedrale, mit dem Stadtgeschichtsmuseum und römischen Ruinen darunter.",l:[["map","https://maps.app.goo.gl/K4k6FCaokSXsmBBc8"]]},
+smm:{n:"Santa Maria del Mar",en:"An elegant 14th-century Catalan Gothic church in El Born, built with support from sailors, merchants and dockworkers. Its bright interior feels more intimate than the cathedral.",de:"Eine elegante katalanisch-gotische Kirche aus dem 14. Jahrhundert im Viertel El Born, von Seeleuten, Händlern und Hafenarbeitern erbaut. Das helle Innere wirkt vertrauter als die Kathedrale.",l:[["map","https://maps.app.goo.gl/RjTFqqj4ghWB4Z5t9"]]},
+picasso:{n:"Picasso Museum",en:"A major museum in five adjoining medieval palaces, tracing Picasso's early years and his deep connection with Barcelona.",de:"Ein bedeutendes Museum in fünf aneinandergrenzenden mittelalterlichen Palästen; es zeigt Picassos frühe Jahre und seine enge Verbindung zu Barcelona.",l:[["web","https://museupicassobcn.cat/en/node/6010"]]},
+palau:{n:"Palau de la Música Catalana",en:"A dazzling Catalan Modernist concert hall by Lluís Domènech i Montaner, full of stained glass, mosaics and sculpture. Visit on a guided tour or attend a concert.",de:"Ein glanzvoller katalanischer Jugendstil-Konzertsaal von Lluís Domènech i Montaner, voller Glasmalerei, Mosaiken und Skulpturen. Besuch per Führung oder bei einem Konzert."},
+ciut:{n:"Parc de la Ciutadella",en:"A large central park with fountains, shaded walks, the Catalan Parliament and the nearby Arc de Triomf. A good low-effort break between museums.",de:"Ein großer Park im Zentrum mit Brunnen, schattigen Wegen, dem katalanischen Parlament und dem nahen Arc de Triomf. Eine gute, entspannte Pause zwischen Museen."},
+batllo:{n:"Casa Batlló",en:"A theatrical Gaudí apartment building on Passeig de Gràcia, known for its bone-like balconies, dragon-scale roof and immersive interior visit.",de:"Ein theatralisches Gaudí-Wohnhaus am Passeig de Gràcia, bekannt für seine knochenartigen Balkone, das Drachenschuppen-Dach und den eindrucksvollen Rundgang im Inneren.",l:[["map","https://maps.app.goo.gl/ZLDfh2t3kNfmRAe26"]]},
+pedrera:{n:"Casa Milà / La Pedrera",en:"Gaudí's undulating stone apartment building, with a rooftop of surreal chimneys and an attic that explains his structural ideas.",de:"Gaudís wellenförmiges Wohnhaus aus Stein, mit einem Dach voller surrealer Schornsteine und einem Dachboden, der seine Bauideen erklärt.",l:[["tix","https://www.lapedrera.com/en/tickets/"]]},
+sagrada:{n:"Sagrada Família",en:"Gaudí's extraordinary, still-unfinished basilica: a forest-like interior, coloured stained glass, sculpted façades and a museum about its construction. Book a timed ticket; tower access is optional.",de:"Gaudís außergewöhnliche, noch unvollendete Basilika: ein waldartiges Inneres, farbige Glasfenster, skulptierte Fassaden und ein Museum zum Bau. Zeitfenster-Ticket buchen; der Turm ist optional.",l:[["tix","https://sagradafamilia.org/en/tickets-individuals"],["web","https://sagradafamilia.org/en/worship-at-the-basilica","Sunday Mass","Sonntagsmesse"]]},
+gracia:{n:"Gràcia",en:"A former independent village with a local feel: leafy squares, independent shops and cafés. A good place for a relaxed lunch or afternoon. It sits below Park Güell.",de:"Ein ehemals eigenständiges Dorf mit lokalem Flair: grüne Plätze, kleine Läden und Cafés. Ideal für ein entspanntes Mittagessen. Es liegt unterhalb des Park Güell."},
+guell:{n:"Park Güell",en:"A hillside park designed by Gaudí, with mosaic terraces, whimsical pavilions, colonnades and broad views over Barcelona.",de:"Ein Hangpark von Gaudí mit Mosaikterrassen, verspielten Pavillons, Säulengängen und weiten Ausblicken über Barcelona.",l:[["tix","https://parkguell.barcelona/en/planning-your-visit/prices-and-times"]]},
+bunkers:{n:"Búnkers del Carmel",en:"Former Civil War anti-aircraft batteries, now a free 360° viewpoint over the city, the sea, Montjuïc and Collserola. Go earlier in the day for comfort and clearer views.",de:"Ehemalige Flugabwehrstellungen aus dem Bürgerkrieg, heute ein kostenloser 360°-Aussichtspunkt über Stadt, Meer, Montjuïc und Collserola. Besser früher am Tag: angenehmer und klarere Sicht.",tip:["The way up is uphill. Leave enough time and wear comfortable shoes.","Der Weg hinauf ist steil. Plane genug Zeit ein und trage bequeme Schuhe."]},
+mnac:{n:"MNAC – National Art Museum of Catalonia",en:"Catalonia's national art museum in the Palau Nacional, especially strong in Romanesque frescoes, Gothic art and Modernisme. Its terrace has one of the city's best views.",de:"Das Nationalmuseum Kataloniens im Palau Nacional, besonders stark bei romanischen Fresken, gotischer Kunst und Modernisme. Die Terrasse bietet einen der schönsten Ausblicke der Stadt.",l:[["tix","https://www.tiqets.com/en/museu-nacional-dart-de-catalunya-tickets-l146144/"]]},
+castle:{n:"Montjuïc Castle",en:"A hilltop fortress with military and political-history exhibitions and sweeping views of the port, sea and city.",de:"Eine Festung auf dem Hügel mit Ausstellungen zur Militär- und Politikgeschichte und weitem Blick auf Hafen, Meer und Stadt.",l:[["web","https://ajuntament.barcelona.cat/castelldemontjuic/en"]]},
+poble:{n:"Poble Espanyol",en:"An open-air architectural village built for the 1929 International Exhibition, recreating streets, squares and buildings from across Spain. It also has craft workshops, shops and cafés.",de:"Ein Freilicht-Architekturdorf für die Weltausstellung 1929, das Straßen, Plätze und Gebäude aus ganz Spanien nachbildet. Mit Kunsthandwerk, Läden und Cafés."},
+barceloneta:{n:"Barceloneta",en:"Barcelona's historic seaside neighbourhood and beach, with a promenade, port views and a relaxed atmosphere.",de:"Barcelonas historisches Meeresviertel mit Strand, Promenade, Hafenblick und entspannter Atmosphäre."},
+portvell:{n:"Port Vell",en:"The old port, a pleasant waterfront stroll on the way to Barceloneta.",de:"Der alte Hafen, ein angenehmer Spaziergang am Wasser auf dem Weg nach Barceloneta."},
+montserrat:{n:"Montserrat",en:"A dramatic saw-toothed mountain and Benedictine monastery, important for Catalan identity and pilgrimage. Visit the basilica, walk short viewpoint trails, and take the cable car or rack railway up from the valley.",de:"Ein dramatischer, gezackter Berg mit Benediktinerkloster, wichtig für die katalanische Identität und als Pilgerziel. Besuche die Basilika, gehe kurze Aussichtswege und fahre mit Seilbahn oder Zahnradbahn hinauf.",l:[["tix","https://tickets.montserratvisita.com/es"]],how:["Take the R5 commuter train (towards Manresa) from Plaça d'Espanya station, every 30 minutes from about 8:30. Get there by metro line 1 (red) or 3 (green), stop Espanya. After about 1 hour, get off at Aeri de Montserrat and take the cable car (every 15 minutes, 5 minutes up). Arrive with time to spare and follow the R5 signs.","Nimm die Regionalbahn R5 (Richtung Manresa) ab Bahnhof Plaça d'Espanya, alle 30 Minuten ab ca. 8:30 Uhr. Dorthin mit der Metro Linie 1 (rot) oder 3 (grün), Haltestelle Espanya. Nach etwa 1 Stunde bei „Aeri de Montserrat“ aussteigen und die Seilbahn nehmen (alle 15 Minuten, 5 Minuten Fahrt). Plane Zeit ein und folge den Schildern zur R5."]},
+tibi:{n:"Tibidabo",en:"Barcelona's highest hill, crowned by the Temple Expiatori del Sagrat Cor, with wide views over city and sea. The historic amusement park is nearby.",de:"Barcelonas höchster Hügel, gekrönt von der Kirche Sagrat Cor, mit weitem Blick über Stadt und Meer. Der historische Vergnügungspark liegt in der Nähe.",l:[["map","https://maps.app.goo.gl/GMffc4WStwovFCyBA"],["web","https://tibidabo.cat/en/plan-the-visit/how-to-get-here","Getting there","Anreise"]]}
+};
+var D=[
+{s:{en:"Hotel area",de:"Rund ums Hotel"},h:{en:"Raval / La Rambla – your hotel base",de:"Raval / La Rambla – deine Hotelgegend"},i:{en:"Easy walking to the Gothic Quarter, and convenient metro connections to Espanya (Montserrat and Montjuïc), Sagrada Família and Passeig de Gràcia.",de:"Zu Fuß leicht ins Gotische Viertel; gute Metro-Verbindungen nach Espanya (Montserrat und Montjuïc), zur Sagrada Família und zum Passeig de Gràcia."},p:["rambla","gotic"]},
+{s:{en:"Gothic Quarter & El Born",de:"Gotisches Viertel & El Born"},h:{en:"One full day",de:"Ein ganzer Tag"},i:{en:"Parc de la Ciutadella makes a nice rest stop between the Gothic Quarter and El Born.",de:"Der Parc de la Ciutadella ist eine schöne Pause zwischen dem Gotischen Viertel und El Born."},p:["cathedral","rei","gotic","smm","picasso","palau","ciut"]},
+{s:{en:"Gaudí interiors",de:"Gaudí von innen"},h:{en:"Eixample – Passeig de Gràcia",de:"Eixample – Passeig de Gràcia"},i:{en:"Both houses are close together. Choose one for a full interior visit and admire the other from outside to keep the day manageable.",de:"Beide Häuser liegen nah beieinander. Wähle eines für den Besuch innen und bewundere das andere von außen – so bleibt der Tag entspannt."},p:["batllo","pedrera"]},
+{s:{en:"Sagrada Família & Gràcia",de:"Sagrada Família & Gràcia"},h:{en:"One day",de:"Ein Tag"},i:{en:"A good route: Sagrada Família in the morning, lunch in Gràcia, Park Güell in the afternoon, then the Búnkers del Carmel for the view.",de:"Eine gute Route: Sagrada Família am Vormittag, Mittagessen in Gràcia, Park Güell am Nachmittag, dann die Búnkers del Carmel für die Aussicht."},p:["sagrada","gracia","guell","bunkers"]},
+{s:{en:"Montjuïc",de:"Montjuïc"},h:{en:"Half or full day",de:"Halber oder ganzer Tag"},i:{en:"All three are on the same hill, but distances and slopes make this a half-day or full-day outing on its own.",de:"Alle drei liegen auf demselben Hügel, aber Entfernungen und Steigungen machen daraus einen halben oder ganzen Tag für sich."},p:["mnac","castle","poble"]},
+{s:{en:"Seafront",de:"Am Meer"},h:{en:"A relaxed half-day",de:"Ein entspannter halber Tag"},i:{en:"A lovely lighter final afternoon: walk from Ciutadella towards the waterfront, then on to Barceloneta.",de:"Ein schöner, ruhiger letzter Nachmittag: von der Ciutadella zum Wasser spazieren und weiter nach Barceloneta."},p:["ciut","portvell","barceloneta"]},
+{s:{en:"Day trips",de:"Ausflüge"},h:{en:"Montserrat & Tibidabo",de:"Montserrat & Tibidabo"},i:{en:"Montserrat is a full day. Tibidabo is half a day to a full day, a quieter change of pace and less essential for first-time cultural visitors.",de:"Montserrat ist ein ganzer Tag. Tibidabo dauert einen halben bis ganzen Tag, ist ruhiger und für Erstbesucher weniger wichtig."},p:["montserrat","tibi"]}
+];
+var L="en",cur=0,seen={},wh=false;
+try{wh=localStorage.getItem("bcn-wel")==="1"}catch(e){}
+try{seen=JSON.parse(localStorage.getItem("bcn-seen")||"{}")}catch(e){}
+try{L=localStorage.getItem("bcn-lang")||((navigator.language||"").slice(0,2)==="de"?"de":"en")}catch(e){}
+if(L!=="de")L="en";
+function sv(){try{localStorage.setItem("bcn-seen",JSON.stringify(seen))}catch(e){}}
+function $(i){return document.getElementById(i)}
+function render(){
+ var t=T[L];document.documentElement.lang=L;
+ $("t").textContent=t.t;$("st").textContent=t.st;
+ $("wel").innerHTML=wh?"":'<div class="wel"><h2>'+t.wh+'</h2><p>'+t.wb+'</p><p>'+t.wb2+'</p><p class="sig">— David</p><button id="wc">'+t.wc+'</button></div>';
+ $("bEN").className=L==="en"?"on":"";$("bDE").className=L==="de"?"on":"";
+ $("prev").textContent=t.prev;$("next").textContent=t.next;
+ $("prev").style.visibility=cur===0?"hidden":"visible";$("next").style.visibility=cur===D.length-1?"hidden":"visible";
+ $("nav").innerHTML=D.map(function(d,k){return '<button data-k="'+k+'" class="'+(k===cur?"on":"")+'"><b>'+(k+1)+'</b>'+d.s[L]+'</button>'}).join("");
+ var d=D[cur],n=d.p.filter(function(x){return seen[x]}).length;
+ var h='<div class="intro"><b>'+d.h[L]+'</b><br>'+d.i[L]+'</div><p class="prog">'+n+' / '+d.p.length+' '+t.of+'</p>';
+ d.p.forEach(function(id){var p=P[id],ok=seen[id];
+  h+='<div class="card'+(ok?" done":"")+'"><h3>'+p.n+'</h3><p>'+p[L]+'</p>';
+  if(p.how)h+='<div class="tip"><b>'+t.how+':</b> '+p.how[L==="en"?0:1]+'</div>';
+  if(p.tip)h+='<div class="tip">'+p.tip[L==="en"?0:1]+'</div>';
+  h+='<div class="links">';
+  (p.l||[]).forEach(function(l){var lab=l[2]?(L==="en"?l[2]:l[3]):t[l[0]];h+='<a class="btn" target="_blank" rel="noopener" href="'+l[1]+'">'+lab+'</a>'});
+  if(!(p.l||[]).some(function(l){return l[0]==="map"}))h+='<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.n+" Barcelona")+'">'+t.map+'</a>';
+  h+='<button class="seen" data-id="'+id+'">'+(ok?t.isSeen:t.seen)+'</button></div></div>'});
+ $("view").innerHTML=h;
+}
+document.addEventListener("click",function(e){
+ var b=e.target.closest("button");if(!b)return;
+ if(b.id==="wc"){wh=true;try{localStorage.setItem("bcn-wel","1")}catch(x){}}
+ else if(b.id==="bEN"||b.id==="bDE"){L=b.id==="bDE"?"de":"en";try{localStorage.setItem("bcn-lang",L)}catch(x){}}
+ else if(b.id==="prev"){cur--;window.scrollTo(0,0)}
+ else if(b.id==="next"){cur++;window.scrollTo(0,0)}
+ else if(b.dataset.k){cur=+b.dataset.k;window.scrollTo(0,0)}
+ else if(b.dataset.id){seen[b.dataset.id]=!seen[b.dataset.id];sv()}
+ else return;
+ render();
+});
+render();
+</script>
+</body>
+</html>
