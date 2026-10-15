@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+import type { Lang } from '../data/taxonomy';
+import { ui } from '../i18n/ui';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content={t.tagline} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <title>{t.title}</title>
+    <script is:inline>
+      // apply saved text size before first paint
+      try { var s = localStorage.getItem('vv-fs'); if (s) document.documentElement.style.setProperty('--fs', s); } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <main><slot /></main>
+  </body>
+</html>
