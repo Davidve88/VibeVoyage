@@ -16,6 +16,7 @@ export function getStaticPaths() {
 
 const lang = Astro.params.lang as Lang;
 const t = ui[lang];
+const [brand, city] = t.title.split(' · ');
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const entries = await getCollection('places');
@@ -53,7 +54,7 @@ const places: PlaceData[] = (await Promise.all(entries
 <Layout lang={lang}>
   <header class="top">
     <div>
-      <h1>{t.title}</h1>
+      <h1>{brand} <mark class="hl">{city}</mark></h1>
       <p class="sub">{t.tagline}</p>
     </div>
     <div class="ctrls">
